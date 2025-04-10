@@ -1,0 +1,21 @@
+{
+  "id": "shippers-rdfg",
+  "name": "Shippers",
+  "type": "STORAGE",
+  "inputDatasets": [
+    {
+      "datasetId": "shippers",
+      "name": "Shippers",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "deb_parent_project_landing-rde9"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  }
+}

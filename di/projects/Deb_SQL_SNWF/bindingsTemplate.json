@@ -1,0 +1,56 @@
+{
+  "variables": {
+    "projectName": "",
+    "platformConnection": "",
+    "cloudStagingConnection": "",
+    "project.current.prefixSchema": "",
+    "task-type.landing.warehouseName": "",
+    "task-type.landing.warehouseSelectionMethod": "",
+    "task-type.landing.databaseName": "",
+    "task-type.landing.databaseSelectionMethod": "",
+    "task-type.registered.databaseName": "",
+    "task-type.registered.databaseSelectionMethod": "",
+    "task-type.storage.warehouseName": "",
+    "task-type.storage.warehouseSelectionMethod": "",
+    "task-type.storage.databaseName": "",
+    "task-type.storage.databaseSelectionMethod": "",
+    "task-type.storage.snowflakeExternalVolume": "",
+    "task-type.storage.snowflakeOpenCatalog": "",
+    "task-type.transform.warehouseName": "",
+    "task-type.transform.warehouseSelectionMethod": "",
+    "task-type.transform.databaseName": "",
+    "task-type.transform.databaseSelectionMethod": "",
+    "task-type.transform.snowflakeExternalVolume": "",
+    "task-type.transform.snowflakeOpenCatalog": "",
+    "task-type.datamart.warehouseName": "",
+    "task-type.datamart.warehouseSelectionMethod": "",
+    "task-type.datamart.databaseName": "",
+    "task-type.datamart.databaseSelectionMethod": "",
+    "task-type.datamart.snowflakeExternalVolume": "",
+    "task-type.datamart.snowflakeOpenCatalog": "",
+    "task.deb_parent_project_landing-rde9.databaseName": "",
+    "task.deb_parent_project_landing-rde9.taskSchema": "",
+    "task.deb_parent_project_landing-rde9.sourceConnection": "",
+    "task.deb_parent_project_landing-rde9:null$_$dbo.database": "",
+    "task.deb_parent_project_landing-rde9:null$_$dbo.schema": "",
+    "task.deb_parent_project_landing-rde9:NORTHWND$_$dbo.database": "",
+    "task.deb_parent_project_landing-rde9:NORTHWND$_$dbo.schema": "",
+    "task.deb_parent_project_storage-rde-.databaseName": "",
+    "task.deb_parent_project_storage-rde-.internalSchema": "",
+    "task.deb_parent_project_storage-rde-.taskSchema": "",
+    "task.deb_parent_project_storage-rde-.warehouseName": "",
+    "task.deb_parent_project_storage-rde-:null$_$%.schemaPattern": ""
+  },
+  "idToNameMap": {
+    "deb_parent_project_landing-rde9": "Deb_Parent_Project_Landing",
+    "deb_parent_project_storage-rde-": "Deb_Parent_Project_Storage"
+  },
+  "connectionProperties": {
+    "{{id(connection, Debarati.Deb_Snowflake_Target_KeyPair)}}": {
+      "type": "reptgt_qdisnowflake"
+    },
+    "{{id(connection, Debarati.Shai_NORTHWIND_Microsoft_SQL_Server_(log_based))}}": {
+      "type": "repsrc_mssql"
+    }
+  }
+}

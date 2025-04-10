@@ -1,0 +1,70 @@
+{
+  "sourceConnection": "{{task.deb_parent_project_landing-rde9.sourceConnection}}",
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "database": "{{task.deb_parent_project_landing-rde9:null$_$dbo.database}}",
+      "name": "Categories",
+      "schema": "{{task.deb_parent_project_landing-rde9:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_categories"
+    },
+    {
+      "database": "{{task.deb_parent_project_landing-rde9:null$_$dbo.database}}",
+      "name": "City",
+      "schema": "{{task.deb_parent_project_landing-rde9:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_city"
+    },
+    {
+      "database": "{{task.deb_parent_project_landing-rde9:null$_$dbo.database}}",
+      "name": "Customers",
+      "schema": "{{task.deb_parent_project_landing-rde9:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_customers"
+    },
+    {
+      "database": "{{task.deb_parent_project_landing-rde9:null$_$dbo.database}}",
+      "name": "Employees",
+      "schema": "{{task.deb_parent_project_landing-rde9:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_employees"
+    },
+    {
+      "database": "{{task.deb_parent_project_landing-rde9:null$_$dbo.database}}",
+      "name": "Products",
+      "schema": "{{task.deb_parent_project_landing-rde9:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_products"
+    },
+    {
+      "database": "{{task.deb_parent_project_landing-rde9:null$_$dbo.database}}",
+      "name": "Region",
+      "schema": "{{task.deb_parent_project_landing-rde9:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_region"
+    },
+    {
+      "database": "{{task.deb_parent_project_landing-rde9:null$_$dbo.database}}",
+      "name": "Shippers",
+      "schema": "{{task.deb_parent_project_landing-rde9:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_shippers"
+    },
+    {
+      "database": "{{task.deb_parent_project_landing-rde9:null$_$dbo.database}}",
+      "name": "Suppliers",
+      "schema": "{{task.deb_parent_project_landing-rde9:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_suppliers"
+    },
+    {
+      "database": "{{task.deb_parent_project_landing-rde9:null$_$dbo.database}}",
+      "name": "Territories",
+      "schema": "{{task.deb_parent_project_landing-rde9:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_territories"
+    }
+  ]
+}
