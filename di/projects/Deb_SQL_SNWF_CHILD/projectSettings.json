@@ -8,6 +8,6 @@
     "suffixInternalSchema": "__INTERNAL",
     "prefixHeaderColumns": "hdr__",
     "prefixSchema": "{{project.current.prefixSchema}}",
-    "defaultSchemaNameOption": "UPPER_CASE"
+    "defaultSchemaNameOption": "LOWER_CASE"
   }
 }
