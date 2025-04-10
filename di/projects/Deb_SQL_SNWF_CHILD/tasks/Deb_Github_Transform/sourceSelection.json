@@ -1,0 +1,20 @@
+{
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "sourceProject": "{{project.Debarati$_$Deb_SQL_SNWF.projectId}}",
+      "sourceTask": "deb_parent_project_storage-rde-",
+      "name": "Categories",
+      "type": "NONE",
+      "sourceTableId": "categories-rdfa"
+    },
+    {
+      "sourceProject": "{{project.Debarati$_$Deb_SQL_SNWF.projectId}}",
+      "sourceTask": "deb_parent_project_storage-rde-",
+      "name": "Products",
+      "type": "NONE",
+      "sourceTableId": "products-rdfe"
+    }
+  ]
+}
