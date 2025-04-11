@@ -16,6 +16,13 @@
       "schema": "{{task.lnd_onboarding_a-ushc:null$_$dbo.schema}}",
       "type": "TABLE",
       "sourceTableId": "$replicate$dbo_categories"
+    },
+    {
+      "database": "{{task.lnd_onboarding_a-ushc:null$_$dbo.database}}",
+      "name": "Customers",
+      "schema": "{{task.lnd_onboarding_a-ushc:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_customers"
     }
   ]
 }
