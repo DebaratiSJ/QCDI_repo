@@ -28,22 +28,22 @@
     "task-type.datamart.databaseSelectionMethod": "",
     "task-type.datamart.snowflakeExternalVolume": "",
     "task-type.datamart.snowflakeOpenCatalog": "",
+    "task.stg_onboarding_a-ushd.databaseName": "",
+    "task.stg_onboarding_a-ushd.internalSchema": "",
+    "task.stg_onboarding_a-ushd.taskSchema": "",
+    "task.stg_onboarding_a-ushd.warehouseName": "",
+    "task.stg_onboarding_a-ushd:null$_$%.schemaPattern": "",
     "task.lnd_onboarding_a-ushc.databaseName": "",
     "task.lnd_onboarding_a-ushc.taskSchema": "",
     "task.lnd_onboarding_a-ushc.sourceConnection": "",
     "task.lnd_onboarding_a-ushc:null$_$dbo.database": "",
     "task.lnd_onboarding_a-ushc:null$_$dbo.schema": "",
     "task.lnd_onboarding_a-ushc:NORTHWND$_$dbo.database": "",
-    "task.lnd_onboarding_a-ushc:NORTHWND$_$dbo.schema": "",
-    "task.stg_onboarding_a-ushd.databaseName": "",
-    "task.stg_onboarding_a-ushd.internalSchema": "",
-    "task.stg_onboarding_a-ushd.taskSchema": "",
-    "task.stg_onboarding_a-ushd.warehouseName": "",
-    "task.stg_onboarding_a-ushd:null$_$%.schemaPattern": ""
+    "task.lnd_onboarding_a-ushc:NORTHWND$_$dbo.schema": ""
   },
   "idToNameMap": {
-    "lnd_onboarding_a-ushc": "LND_ONBOARDING_A",
-    "stg_onboarding_a-ushd": "STG_ONBOARDING_A"
+    "stg_onboarding_a-ushd": "STG_ONBOARDING_A",
+    "lnd_onboarding_a-ushc": "LND_ONBOARDING_A"
   },
   "connectionProperties": {
     "{{id(connection, Debarati.Deb_Snowflake_Target_KeyPair)}}": {
