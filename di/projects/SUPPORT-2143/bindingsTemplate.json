@@ -1,0 +1,56 @@
+{
+  "variables": {
+    "projectName": "",
+    "platformConnection": "",
+    "cloudStagingConnection": "",
+    "project.current.prefixSchema": "",
+    "task-type.landing.warehouseName": "",
+    "task-type.landing.warehouseSelectionMethod": "",
+    "task-type.landing.databaseName": "",
+    "task-type.landing.databaseSelectionMethod": "",
+    "task-type.registered.databaseName": "",
+    "task-type.registered.databaseSelectionMethod": "",
+    "task-type.storage.warehouseName": "",
+    "task-type.storage.warehouseSelectionMethod": "",
+    "task-type.storage.databaseName": "",
+    "task-type.storage.databaseSelectionMethod": "",
+    "task-type.storage.snowflakeExternalVolume": "",
+    "task-type.storage.snowflakeOpenCatalog": "",
+    "task-type.transform.warehouseName": "",
+    "task-type.transform.warehouseSelectionMethod": "",
+    "task-type.transform.databaseName": "",
+    "task-type.transform.databaseSelectionMethod": "",
+    "task-type.transform.snowflakeExternalVolume": "",
+    "task-type.transform.snowflakeOpenCatalog": "",
+    "task-type.datamart.warehouseName": "",
+    "task-type.datamart.warehouseSelectionMethod": "",
+    "task-type.datamart.databaseName": "",
+    "task-type.datamart.databaseSelectionMethod": "",
+    "task-type.datamart.snowflakeExternalVolume": "",
+    "task-type.datamart.snowflakeOpenCatalog": "",
+    "task.support_2143_landing-usn5.databaseName": "",
+    "task.support_2143_landing-usn5.taskSchema": "",
+    "task.support_2143_landing-usn5.sourceConnection": "",
+    "task.support_2143_landing-usn5:null$_$dbo.database": "",
+    "task.support_2143_landing-usn5:null$_$dbo.schema": "",
+    "task.support_2143_landing-usn5:NORTHWND$_$dbo.database": "",
+    "task.support_2143_landing-usn5:NORTHWND$_$dbo.schema": "",
+    "task.support_2143_storage-usn6.databaseName": "",
+    "task.support_2143_storage-usn6.internalSchema": "",
+    "task.support_2143_storage-usn6.taskSchema": "",
+    "task.support_2143_storage-usn6.warehouseName": "",
+    "task.support_2143_storage-usn6:null$_$%.schemaPattern": ""
+  },
+  "idToNameMap": {
+    "support_2143_landing-usn5": "SUPPORT-2143_Landing",
+    "support_2143_storage-usn6": "SUPPORT-2143_Storage"
+  },
+  "connectionProperties": {
+    "{{id(connection, Debarati.Deb_Snowflake_Target_KeyPair)}}": {
+      "type": "reptgt_qdisnowflake"
+    },
+    "{{id(connection, Debarati.Shai_NORTHWIND_Microsoft_SQL_Server_(log_based))}}": {
+      "type": "repsrc_mssql"
+    }
+  }
+}
