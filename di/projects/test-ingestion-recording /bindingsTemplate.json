@@ -1,0 +1,56 @@
+{
+  "variables": {
+    "projectName": "",
+    "platformConnection": "",
+    "cloudStagingConnection": "",
+    "project.current.prefixSchema": "",
+    "task-type.landing.warehouseName": "",
+    "task-type.landing.warehouseSelectionMethod": "",
+    "task-type.landing.databaseName": "",
+    "task-type.landing.databaseSelectionMethod": "",
+    "task-type.registered.databaseName": "",
+    "task-type.registered.databaseSelectionMethod": "",
+    "task-type.storage.warehouseName": "",
+    "task-type.storage.warehouseSelectionMethod": "",
+    "task-type.storage.databaseName": "",
+    "task-type.storage.databaseSelectionMethod": "",
+    "task-type.storage.snowflakeExternalVolume": "",
+    "task-type.storage.snowflakeOpenCatalog": "",
+    "task-type.transform.warehouseName": "",
+    "task-type.transform.warehouseSelectionMethod": "",
+    "task-type.transform.databaseName": "",
+    "task-type.transform.databaseSelectionMethod": "",
+    "task-type.transform.snowflakeExternalVolume": "",
+    "task-type.transform.snowflakeOpenCatalog": "",
+    "task-type.datamart.warehouseName": "",
+    "task-type.datamart.warehouseSelectionMethod": "",
+    "task-type.datamart.databaseName": "",
+    "task-type.datamart.databaseSelectionMethod": "",
+    "task-type.datamart.snowflakeExternalVolume": "",
+    "task-type.datamart.snowflakeOpenCatalog": "",
+    "task.lnd_onboarding_a-ushc.databaseName": "",
+    "task.lnd_onboarding_a-ushc.taskSchema": "",
+    "task.lnd_onboarding_a-ushc.sourceConnection": "",
+    "task.lnd_onboarding_a-ushc:null$_$dbo.database": "",
+    "task.lnd_onboarding_a-ushc:null$_$dbo.schema": "",
+    "task.lnd_onboarding_a-ushc:NORTHWND$_$dbo.database": "",
+    "task.lnd_onboarding_a-ushc:NORTHWND$_$dbo.schema": "",
+    "task.stg_onboarding_a-ushd.databaseName": "",
+    "task.stg_onboarding_a-ushd.internalSchema": "",
+    "task.stg_onboarding_a-ushd.taskSchema": "",
+    "task.stg_onboarding_a-ushd.warehouseName": "",
+    "task.stg_onboarding_a-ushd:null$_$%.schemaPattern": ""
+  },
+  "idToNameMap": {
+    "lnd_onboarding_a-ushc": "LND_ONBOARDING_A",
+    "stg_onboarding_a-ushd": "STG_ONBOARDING_A"
+  },
+  "connectionProperties": {
+    "{{id(connection, Debarati.Deb_Snowflake_Target_KeyPair)}}": {
+      "type": "reptgt_qdisnowflake"
+    },
+    "{{id(connection, Debarati.Shai_NORTHWIND_Microsoft_SQL_Server_(log_based))}}": {
+      "type": "repsrc_mssql"
+    }
+  }
+}
