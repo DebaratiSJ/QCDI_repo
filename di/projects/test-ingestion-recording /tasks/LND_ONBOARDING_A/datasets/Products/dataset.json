@@ -8,8 +8,7 @@
       "name": "Products",
       "projectId": "{{ref(project.current.projectId)}}",
       "taskId": "lnd_onboarding_a-ushc",
-      "schema": "{{task.lnd_onboarding_a-ushc:null$_$dbo.schema}}",
-      "database": "{{task.lnd_onboarding_a-ushc:null$_$dbo.database}}"
+      "schema": "{{task.lnd_onboarding_a-ushc:null$_$dbo.schema}}"
     }
   ]
 }

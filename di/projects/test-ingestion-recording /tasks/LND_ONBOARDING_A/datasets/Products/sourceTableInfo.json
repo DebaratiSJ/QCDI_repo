@@ -4,8 +4,8 @@
   "type": "LANDING",
   "tableDef": {
     "name": "Products",
-    "dbSchema": "{{task.lnd_onboarding_a-ushc:NORTHWND$_$dbo.schema}}",
-    "dbName": "{{task.lnd_onboarding_a-ushc:NORTHWND$_$dbo.database}}",
+    "dbSchema": "dbo",
+    "dbName": "NORTHWND",
     "columns": [
       {
         "name": "ProductID",
