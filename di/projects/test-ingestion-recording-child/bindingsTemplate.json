@@ -32,10 +32,15 @@
     "task.transform_test-tkgl.internalSchema": "",
     "task.transform_test-tkgl.taskSchema": "",
     "task.transform_test-tkgl.warehouseName": "",
-    "project.Debarati$_$test-ingestion-recording .projectId": ""
+    "project.Debarati$_$test-ingestion-recording .projectId": "",
+    "task.transform_2-aqua.databaseName": "",
+    "task.transform_2-aqua.internalSchema": "",
+    "task.transform_2-aqua.taskSchema": "",
+    "task.transform_2-aqua.warehouseName": ""
   },
   "idToNameMap": {
-    "transform_test-tkgl": "TRANSFORM_TEST"
+    "transform_test-tkgl": "TRANSFORM_TEST",
+    "transform_2-aqua": "TRANSFORM_2"
   },
   "connectionProperties": {
     "{{id(connection, Debarati.Deb_Snowflake_Target_KeyPair)}}": {

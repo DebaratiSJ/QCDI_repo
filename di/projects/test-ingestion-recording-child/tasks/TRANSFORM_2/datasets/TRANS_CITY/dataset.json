@@ -1,0 +1,152 @@
+{
+  "id": "trans_city-kixw",
+  "name": "TRANS_CITY",
+  "type": "CUSTOM",
+  "inputDatasets": [
+    {
+      "datasetId": "city-tugp",
+      "name": "CITY",
+      "projectId": "{{project.Debarati$_$test-ingestion-recording .projectId}}",
+      "taskId": "stg_onboarding_a-ushd"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "tableDef": {
+    "name": "TRANS_CITY",
+    "columns": [
+      {
+        "name": "CITY_ID",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 38,
+          "scale": 0,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(38,0)"
+        },
+        "id": "city_id",
+        "flags": "NONE"
+      },
+      {
+        "name": "CITY",
+        "ordinal": 2,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 10,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(10)"
+        },
+        "id": "city",
+        "flags": "NONE"
+      },
+      {
+        "name": "CREATE_DATE",
+        "ordinal": 3,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "DATETIME",
+          "length": 0,
+          "precision": 3,
+          "scale": 0,
+          "originalType": "TIMESTAMPNTZ",
+          "originalTypeFull": "TIMESTAMPNTZ(3)"
+        },
+        "id": "create_date",
+        "flags": "NONE"
+      },
+      {
+        "name": "COL1",
+        "ordinal": 4,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(100)"
+        },
+        "id": "col1",
+        "flags": "NONE"
+      },
+      {
+        "name": "COL2",
+        "ordinal": 5,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(100)"
+        },
+        "id": "col2",
+        "flags": "NONE"
+      },
+      {
+        "name": "COL3",
+        "ordinal": 6,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(50)"
+        },
+        "id": "col3",
+        "flags": "NONE"
+      },
+      {
+        "name": "COL4",
+        "ordinal": 7,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(50)"
+        },
+        "id": "col4",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  },
+  "customDatasetSettings": {
+    "customSql": {
+      "expressionStatement": "\nSELECT\n  \u0022CITY_ID\u0022,\n  \u0022CITY\u0022,\n  \u0022CREATE_DATE\u0022,\n  \u0022COL1\u0022,\n  \u0022COL2\u0022, \n  \u0022COL3\u0022,\n  \u0022COL4\u0022\nFROM ${CITY} AS c;\n",
+      "alias": [
+        {
+          "name": "CITY",
+          "value": "67f9150533461444d0b921d7$_$stg_onboarding_a-ushd$_$city-tugp"
+        }
+      ]
+    },
+    "incremental": false
+  }
+}
