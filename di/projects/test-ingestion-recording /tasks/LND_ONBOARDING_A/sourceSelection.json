@@ -20,6 +20,12 @@
       "schema": "{{task.lnd_onboarding_a-ushc:null$_$dbo.schema}}",
       "type": "TABLE",
       "sourceTableId": "$replicate$dbo_customers"
+    },
+    {
+      "name": "City",
+      "schema": "{{task.lnd_onboarding_a-ushc:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_city"
     }
   ]
 }
