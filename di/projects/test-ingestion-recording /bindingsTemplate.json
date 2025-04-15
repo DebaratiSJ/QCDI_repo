@@ -32,14 +32,10 @@
     "task.stg_onboarding_a-ushd.internalSchema": "",
     "task.stg_onboarding_a-ushd.taskSchema": "",
     "task.stg_onboarding_a-ushd.warehouseName": "",
-    "task.stg_onboarding_a-ushd:null$_$%.schemaPattern": "",
     "task.lnd_onboarding_a-ushc.databaseName": "",
     "task.lnd_onboarding_a-ushc.taskSchema": "",
     "task.lnd_onboarding_a-ushc.sourceConnection": "",
-    "task.lnd_onboarding_a-ushc:null$_$dbo.database": "",
-    "task.lnd_onboarding_a-ushc:null$_$dbo.schema": "",
-    "task.lnd_onboarding_a-ushc:NORTHWND$_$dbo.database": "",
-    "task.lnd_onboarding_a-ushc:NORTHWND$_$dbo.schema": ""
+    "task.lnd_onboarding_a-ushc:null$_$dbo.schema": ""
   },
   "idToNameMap": {
     "stg_onboarding_a-ushd": "STG_ONBOARDING_A",

@@ -4,7 +4,7 @@
       "sourceProject": "{{ref(project.current.projectId)}}",
       "sourceTask": "lnd_onboarding_a-ushc",
       "tablePattern": "%",
-      "schemaPattern": "{{task.stg_onboarding_a-ushd:null$_$%.schemaPattern}}",
+      "schemaPattern": "%",
       "type": "TABLE"
     }
   ],
