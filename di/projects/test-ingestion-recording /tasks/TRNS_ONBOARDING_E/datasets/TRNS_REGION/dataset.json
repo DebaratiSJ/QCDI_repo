@@ -1,0 +1,104 @@
+{
+  "id": "trns_region-tkgk",
+  "name": "TRNS_REGION",
+  "type": "CUSTOM",
+  "inputDatasets": [
+    {
+      "datasetId": "region-tugu",
+      "name": "REGION",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "stg_onboarding_d-tkgi"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "tableDef": {
+    "name": "TRNS_REGION",
+    "columns": [
+      {
+        "name": "REGIONID",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 38,
+          "scale": 0,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(38,0)"
+        },
+        "id": "regionid",
+        "flags": "NONE"
+      },
+      {
+        "name": "REGIONDESCRIPTION",
+        "ordinal": 2,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(50)"
+        },
+        "id": "regiondescription",
+        "flags": "NONE"
+      },
+      {
+        "name": "TESTCOL",
+        "ordinal": 3,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(100)"
+        },
+        "id": "testcol",
+        "flags": "NONE"
+      },
+      {
+        "name": "TEST2",
+        "ordinal": 4,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(100)"
+        },
+        "id": "test2",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  },
+  "customDatasetSettings": {
+    "customSql": {
+      "expressionStatement": "\nSELECT * FROM ${REGION} AS r;\n",
+      "alias": [
+        {
+          "name": "REGION",
+          "value": "{{ref(project.current.projectId)}}$_$stg_onboarding_d-tkgi$_$region-tugu"
+        }
+      ]
+    },
+    "incremental": false
+  }
+}
