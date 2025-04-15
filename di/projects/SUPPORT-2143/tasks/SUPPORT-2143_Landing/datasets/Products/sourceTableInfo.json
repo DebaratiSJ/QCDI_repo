@@ -5,7 +5,6 @@
   "tableDef": {
     "name": "Products",
     "dbSchema": "{{task.support_2143_landing-usn5:null$_$dbo.schema}}",
-    "dbName": "{{task.support_2143_landing-usn5:null$_$dbo.database}}",
     "columns": [
       {
         "name": "ProductID",

@@ -4,8 +4,8 @@
   "type": "LANDING",
   "tableDef": {
     "name": "Categories",
-    "dbSchema": "{{task.support_2143_landing-usn5:NORTHWND$_$dbo.schema}}",
-    "dbName": "{{task.support_2143_landing-usn5:NORTHWND$_$dbo.database}}",
+    "dbSchema": "dbo",
+    "dbName": "NORTHWND",
     "columns": [
       {
         "name": "CategoryID",

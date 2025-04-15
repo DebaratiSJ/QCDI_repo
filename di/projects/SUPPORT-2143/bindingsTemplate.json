@@ -32,19 +32,14 @@
     "task.support_2143_storage-usn6.internalSchema": "",
     "task.support_2143_storage-usn6.taskSchema": "",
     "task.support_2143_storage-usn6.warehouseName": "",
-    "task.support_2143_storage-usn6:null$_$%.schemaPattern": "",
     "task.support_2143_landing-usn5.databaseName": "",
     "task.support_2143_landing-usn5.taskSchema": "",
     "task.support_2143_landing-usn5.sourceConnection": "",
-    "task.support_2143_landing-usn5:null$_$dbo.database": "",
     "task.support_2143_landing-usn5:null$_$dbo.schema": "",
-    "task.support_2143_landing-usn5:NORTHWND$_$dbo.database": "",
-    "task.support_2143_landing-usn5:NORTHWND$_$dbo.schema": "",
     "task.support_2143_transform-tpwx.databaseName": "",
     "task.support_2143_transform-tpwx.internalSchema": "",
     "task.support_2143_transform-tpwx.taskSchema": "",
-    "task.support_2143_transform-tpwx.warehouseName": "",
-    "task.support_2143_transform-tpwx:null$_$%.schemaPattern": ""
+    "task.support_2143_transform-tpwx.warehouseName": ""
   },
   "idToNameMap": {
     "support_2143_storage-usn6": "SUPPORT-2143_Storage",

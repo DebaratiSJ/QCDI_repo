@@ -4,14 +4,12 @@
   "excludePatterns": [],
   "explicitlySelected": [
     {
-      "database": "{{task.support_2143_landing-usn5:null$_$dbo.database}}",
       "name": "Categories",
       "schema": "{{task.support_2143_landing-usn5:null$_$dbo.schema}}",
       "type": "TABLE",
       "sourceTableId": "$replicate$dbo_categories"
     },
     {
-      "database": "{{task.support_2143_landing-usn5:null$_$dbo.database}}",
       "name": "Products",
       "schema": "{{task.support_2143_landing-usn5:null$_$dbo.schema}}",
       "type": "TABLE",
