@@ -39,12 +39,17 @@
     "task.trns_onboarding_a-tuf8.databaseName": "",
     "task.trns_onboarding_a-tuf8.internalSchema": "",
     "task.trns_onboarding_a-tuf8.taskSchema": "",
-    "task.trns_onboarding_a-tuf8.warehouseName": ""
+    "task.trns_onboarding_a-tuf8.warehouseName": "",
+    "task.trns_onboarding_b-k0hd.databaseName": "",
+    "task.trns_onboarding_b-k0hd.internalSchema": "",
+    "task.trns_onboarding_b-k0hd.taskSchema": "",
+    "task.trns_onboarding_b-k0hd.warehouseName": ""
   },
   "idToNameMap": {
     "stg_onboarding_a-ushd": "STG_ONBOARDING_A",
     "lnd_onboarding_a-ushc": "LND_ONBOARDING_A",
-    "trns_onboarding_a-tuf8": "TRNS_ONBOARDING_A"
+    "trns_onboarding_a-tuf8": "TRNS_ONBOARDING_A",
+    "trns_onboarding_b-k0hd": "TRNS_ONBOARDING_B"
   },
   "connectionProperties": {
     "{{id(connection, Debarati.Deb_Snowflake_Target_KeyPair)}}": {
