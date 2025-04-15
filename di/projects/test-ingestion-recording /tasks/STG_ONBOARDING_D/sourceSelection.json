@@ -1,0 +1,13 @@
+{
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "sourceProject": "{{ref(project.current.projectId)}}",
+      "sourceTask": "lnd_onboarding_a-ushc",
+      "name": "REGION",
+      "type": "NONE",
+      "sourceTableId": "region"
+    }
+  ]
+}
