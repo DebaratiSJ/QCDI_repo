@@ -8,8 +8,7 @@
       "name": "Products",
       "projectId": "{{ref(project.current.projectId)}}",
       "taskId": "support_2143_landing-usn5",
-      "schema": "{{task.support_2143_landing-usn5:null$_$dbo.schema}}",
-      "database": "{{task.support_2143_landing-usn5:null$_$dbo.database}}"
+      "schema": "{{task.support_2143_landing-usn5:null$_$dbo.schema}}"
     }
   ]
 }
