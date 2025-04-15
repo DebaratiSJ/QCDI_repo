@@ -1,0 +1,258 @@
+{
+  "id": "cat_prod_test-k0hn",
+  "name": "CAT_PROD_TEST",
+  "type": "CUSTOM",
+  "inputDatasets": [
+    {
+      "datasetId": "categories-5rxq",
+      "name": "CATEGORIES",
+      "projectId": "{{project.Debarati$_$test-ingestion-recording .projectId}}",
+      "taskId": "stg_onboarding_a-ushd"
+    },
+    {
+      "datasetId": "products-ushf",
+      "name": "PRODUCTS",
+      "projectId": "{{project.Debarati$_$test-ingestion-recording .projectId}}",
+      "taskId": "stg_onboarding_a-ushd"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "tableDef": {
+    "name": "CAT_PROD_TEST",
+    "columns": [
+      {
+        "name": "CATEGORYNAME",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 15,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(15)"
+        },
+        "id": "categoryname",
+        "flags": "NONE"
+      },
+      {
+        "name": "DESCRIPTION",
+        "ordinal": 2,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 8388608,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(8388608)"
+        },
+        "id": "description",
+        "flags": "NONE"
+      },
+      {
+        "name": "PICTURE",
+        "ordinal": 3,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "BYTES",
+          "length": 8388608,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "BINARY",
+          "originalTypeFull": "BINARY(8388608)"
+        },
+        "id": "picture",
+        "flags": "NONE"
+      },
+      {
+        "name": "PRODUCTID",
+        "ordinal": 4,
+        "nullable": false,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 38,
+          "scale": 0,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(38,0)"
+        },
+        "id": "productid",
+        "flags": "NONE"
+      },
+      {
+        "name": "PRODUCTNAME",
+        "ordinal": 5,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(40)"
+        },
+        "id": "productname",
+        "flags": "NONE"
+      },
+      {
+        "name": "SUPPLIERID",
+        "ordinal": 6,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 38,
+          "scale": 0,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(38,0)"
+        },
+        "id": "supplierid",
+        "flags": "NONE"
+      },
+      {
+        "name": "CATEGORYID",
+        "ordinal": 7,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 38,
+          "scale": 0,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(38,0)"
+        },
+        "id": "categoryid",
+        "flags": "NONE"
+      },
+      {
+        "name": "QUANTITYPERUNIT",
+        "ordinal": 8,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 20,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(20)"
+        },
+        "id": "quantityperunit",
+        "flags": "NONE"
+      },
+      {
+        "name": "UNITPRICE",
+        "ordinal": 9,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 19,
+          "scale": 4,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(19,4)"
+        },
+        "id": "unitprice",
+        "flags": "NONE"
+      },
+      {
+        "name": "UNITSINSTOCK",
+        "ordinal": 10,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 38,
+          "scale": 0,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(38,0)"
+        },
+        "id": "unitsinstock",
+        "flags": "NONE"
+      },
+      {
+        "name": "UNITSONORDER",
+        "ordinal": 11,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 38,
+          "scale": 0,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(38,0)"
+        },
+        "id": "unitsonorder",
+        "flags": "NONE"
+      },
+      {
+        "name": "REORDERLEVEL",
+        "ordinal": 12,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 38,
+          "scale": 0,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(38,0)"
+        },
+        "id": "reorderlevel",
+        "flags": "NONE"
+      },
+      {
+        "name": "DISCONTINUED",
+        "ordinal": 13,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "BOOLEAN",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "BOOLEAN",
+          "originalTypeFull": "BOOLEAN"
+        },
+        "id": "discontinued",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  },
+  "customDatasetSettings": {
+    "customSql": {
+      "expressionStatement": "\nSELECT\n  ${CATEGORIES}.CATEGORYNAME,\n  ${CATEGORIES}.DESCRIPTION,\n  ${CATEGORIES}.PICTURE,\n  ${PRODUCTS}.PRODUCTID,\n  ${PRODUCTS}.PRODUCTNAME,\n  ${PRODUCTS}.SUPPLIERID,\n  ${PRODUCTS}.CATEGORYID,\n  ${PRODUCTS}.QUANTITYPERUNIT,\n  ${PRODUCTS}.UNITPRICE,\n  ${PRODUCTS}.UNITSINSTOCK,\n  ${PRODUCTS}.UNITSONORDER,\n  ${PRODUCTS}.REORDERLEVEL,\n  ${PRODUCTS}.DISCONTINUED\nFROM ${CATEGORIES}\nJOIN ${PRODUCTS}\n  ON ${CATEGORIES}.CATEGORYID = ${PRODUCTS}.CATEGORYID;\n",
+      "alias": [
+        {
+          "name": "CATEGORIES",
+          "value": "67f9150533461444d0b921d7$_$stg_onboarding_a-ushd$_$categories-5rxq"
+        },
+        {
+          "name": "PRODUCTS",
+          "value": "67f9150533461444d0b921d7$_$stg_onboarding_a-ushd$_$products-ushf"
+        }
+      ]
+    },
+    "incremental": false
+  }
+}

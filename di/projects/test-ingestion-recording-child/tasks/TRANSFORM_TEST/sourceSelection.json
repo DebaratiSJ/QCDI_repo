@@ -1,0 +1,20 @@
+{
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "sourceProject": "{{project.Debarati$_$test-ingestion-recording .projectId}}",
+      "sourceTask": "stg_onboarding_a-ushd",
+      "name": "CATEGORIES",
+      "type": "NONE",
+      "sourceTableId": "categories-5rxq"
+    },
+    {
+      "sourceProject": "{{project.Debarati$_$test-ingestion-recording .projectId}}",
+      "sourceTask": "stg_onboarding_a-ushd",
+      "name": "PRODUCTS",
+      "type": "NONE",
+      "sourceTableId": "products-ushf"
+    }
+  ]
+}
