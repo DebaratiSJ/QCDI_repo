@@ -1,11 +1,11 @@
 {
-  "id": "region-tugu",
-  "name": "REGION",
+  "id": "products-kyug",
+  "name": "PRODUCTS",
   "type": "STORAGE",
   "inputDatasets": [
     {
-      "datasetId": "region",
-      "name": "REGION",
+      "datasetId": "products",
+      "name": "PRODUCTS",
       "projectId": "{{ref(project.current.projectId)}}",
       "taskId": "lnd_onboarding_a-ushc"
     }

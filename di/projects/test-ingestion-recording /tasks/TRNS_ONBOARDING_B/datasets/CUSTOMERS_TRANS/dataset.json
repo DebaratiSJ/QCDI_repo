@@ -228,5 +228,6 @@
       ]
     },
     "incremental": false
-  }
+  },
+  "virtualDataset": false
 }
