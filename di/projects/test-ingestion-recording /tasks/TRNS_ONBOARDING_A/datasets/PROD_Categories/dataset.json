@@ -254,5 +254,6 @@
       ]
     },
     "incremental": false
-  }
+  },
+  "virtualDataset": false
 }

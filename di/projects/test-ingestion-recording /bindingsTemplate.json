@@ -55,7 +55,15 @@
     "task.trns_onboarding_e-tx_l.databaseName": "",
     "task.trns_onboarding_e-tx_l.internalSchema": "",
     "task.trns_onboarding_e-tx_l.taskSchema": "",
-    "task.trns_onboarding_e-tx_l.warehouseName": ""
+    "task.trns_onboarding_e-tx_l.warehouseName": "",
+    "task.stg_onboarding_f-nfou.databaseName": "",
+    "task.stg_onboarding_f-nfou.internalSchema": "",
+    "task.stg_onboarding_f-nfou.taskSchema": "",
+    "task.stg_onboarding_f-nfou.warehouseName": "",
+    "task.trns_onboarding_f-_p_u.databaseName": "",
+    "task.trns_onboarding_f-_p_u.internalSchema": "",
+    "task.trns_onboarding_f-_p_u.taskSchema": "",
+    "task.trns_onboarding_f-_p_u.warehouseName": ""
   },
   "idToNameMap": {
     "stg_onboarding_a-ushd": "STG_ONBOARDING_A",
@@ -64,7 +72,9 @@
     "trns_onboarding_b-k0hd": "TRNS_ONBOARDING_B",
     "trns_onboarding_c-k0hh": "TRNS_ONBOARDING_C",
     "stg_onboarding_d-tkgi": "STG_ONBOARDING_D",
-    "trns_onboarding_e-tx_l": "TRNS_ONBOARDING_E"
+    "trns_onboarding_e-tx_l": "TRNS_ONBOARDING_E",
+    "stg_onboarding_f-nfou": "STG_ONBOARDING_F",
+    "trns_onboarding_f-_p_u": "TRNS_ONBOARDING_F"
   },
   "connectionProperties": {
     "{{id(connection, Debarati.Deb_Snowflake_Target_KeyPair)}}": {

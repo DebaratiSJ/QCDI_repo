@@ -1,13 +1,13 @@
 {
-  "id": "trns_region-tkgk",
+  "id": "trns_region-kyun",
   "name": "TRNS_REGION",
   "type": "CUSTOM",
   "inputDatasets": [
     {
-      "datasetId": "region-tugu",
+      "datasetId": "region-kyuk",
       "name": "REGION",
       "projectId": "{{ref(project.current.projectId)}}",
-      "taskId": "stg_onboarding_d-tkgi"
+      "taskId": "stg_onboarding_f-nfou"
     }
   ],
   "datasetAttributes": {
@@ -91,11 +91,11 @@
   },
   "customDatasetSettings": {
     "customSql": {
-      "expressionStatement": "\nSELECT * FROM ${REGION} AS r;\n",
+      "expressionStatement": "SELECT * FROM ${REGION}",
       "alias": [
         {
           "name": "REGION",
-          "value": "{{ref(project.current.projectId)}}$_$stg_onboarding_d-tkgi$_$region-tugu"
+          "value": "{{ref(project.current.projectId)}}$_$stg_onboarding_f-nfou$_$region-kyuk"
         }
       ]
     },

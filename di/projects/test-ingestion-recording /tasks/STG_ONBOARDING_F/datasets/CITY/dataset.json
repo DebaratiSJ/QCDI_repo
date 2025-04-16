@@ -1,11 +1,11 @@
 {
-  "id": "region-tugu",
-  "name": "REGION",
+  "id": "city-kyuj",
+  "name": "CITY",
   "type": "STORAGE",
   "inputDatasets": [
     {
-      "datasetId": "region",
-      "name": "REGION",
+      "datasetId": "city",
+      "name": "CITY",
       "projectId": "{{ref(project.current.projectId)}}",
       "taskId": "lnd_onboarding_a-ushc"
     }

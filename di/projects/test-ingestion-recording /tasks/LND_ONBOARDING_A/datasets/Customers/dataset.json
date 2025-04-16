@@ -10,5 +10,6 @@
       "taskId": "lnd_onboarding_a-ushc",
       "schema": "{{task.lnd_onboarding_a-ushc:null$_$dbo.schema}}"
     }
-  ]
+  ],
+  "virtualDataset": false
 }
