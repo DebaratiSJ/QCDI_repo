@@ -1,0 +1,40 @@
+{
+  "ordinal": 2,
+  "actionType": "ADD_COLUMN",
+  "scopeType": "COLUMN",
+  "scope": {
+    "whereOwnerName": "%",
+    "whereTableName": "%",
+    "whereColumnName": "%",
+    "whereDatatype": "UNSPECIFIED",
+    "whereColumnKeyAttribute": "ANY",
+    "whereColumnNullability": "ANY"
+  },
+  "action": {
+    "renameType": "RENAME",
+    "expression": {
+      "expressionStatement": "CURRENT_TIMESTAMP",
+      "alias": []
+    },
+    "applyColumnDatatype": false,
+    "column": {
+      "name": "UPDATE_DATE",
+      "ordinal": 0,
+      "nullable": true,
+      "primaryKeyOrdinal": 0,
+      "datatype": {
+        "type": "DATETIME",
+        "length": 50,
+        "precision": 0,
+        "scale": 0,
+        "originalTypeFull": ""
+      },
+      "flags": "NONE"
+    }
+  },
+  "enabled": true,
+  "internalRule": false,
+  "name": "AddColumnRule",
+  "id": "addcolumnrule-eg3i",
+  "description": ""
+}
