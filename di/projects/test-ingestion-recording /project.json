@@ -6,5 +6,6 @@
   "description": "project description updated",
   "platformType": "SNOWFLAKE",
   "platformConnection": "{{platformConnection}}",
-  "cloudStagingConnection": "{{cloudStagingConnection}}"
+  "cloudStagingConnection": "{{cloudStagingConnection}}",
+  "snowflakeStorageIntegration": ""
 }
