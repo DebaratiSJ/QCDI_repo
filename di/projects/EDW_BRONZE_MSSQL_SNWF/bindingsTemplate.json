@@ -22,18 +22,18 @@
     "task-type.datamart.warehouseSelectionMethod": "",
     "task-type.datamart.databaseName": "",
     "task-type.datamart.databaseSelectionMethod": "",
-    "task.bronze_dev_landing-xpqr.databaseName": "",
-    "task.bronze_dev_landing-xpqr.taskSchema": "",
-    "task.bronze_dev_landing-xpqr.sourceConnection": "",
-    "task.bronze_dev_landing-xpqr:null$_$dbo.schema": "",
     "task.bronze_dev_storage-xpqs.databaseName": "",
     "task.bronze_dev_storage-xpqs.internalSchema": "",
     "task.bronze_dev_storage-xpqs.taskSchema": "",
-    "task.bronze_dev_storage-xpqs.warehouseName": ""
+    "task.bronze_dev_storage-xpqs.warehouseName": "",
+    "task.bronze_dev_landing-xpqr.databaseName": "",
+    "task.bronze_dev_landing-xpqr.taskSchema": "",
+    "task.bronze_dev_landing-xpqr.sourceConnection": "",
+    "task.bronze_dev_landing-xpqr:null$_$dbo.schema": ""
   },
   "idToNameMap": {
-    "bronze_dev_landing-xpqr": "BRONZE_DEV__Landing",
-    "bronze_dev_storage-xpqs": "BRONZE_DEV__Storage"
+    "bronze_dev_storage-xpqs": "BRONZE_DEV__Storage",
+    "bronze_dev_landing-xpqr": "BRONZE_DEV__Landing"
   },
   "connectionProperties": {
     "{{id(connection, Connections.DEV_Deb_Snowflake_Target)}}": {
