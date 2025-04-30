@@ -1,6 +1,6 @@
 {
-  "id": "prodcat_trans-xpq5",
-  "name": "PRODCAT_TRANS",
+  "id": "dev_prodcat_trans-5f54",
+  "name": "DEV_PRODCAT_TRANS",
   "type": "CUSTOM",
   "inputDatasets": [
     {
@@ -25,7 +25,7 @@
     "watermarkIncrementalSettings": "INHERIT"
   },
   "tableDef": {
-    "name": "PRODCAT_TRANS",
+    "name": "DEV_PRODCAT_TRANS",
     "columns": [
       {
         "name": "ProductID",
@@ -44,7 +44,7 @@
         "flags": "NONE"
       },
       {
-        "name": "ProductName",
+        "name": "PRODUCT_NAME",
         "ordinal": 2,
         "nullable": false,
         "primaryKeyOrdinal": 0,
@@ -56,7 +56,7 @@
           "originalType": "VARCHAR",
           "originalTypeFull": "VARCHAR(40)"
         },
-        "id": "productname",
+        "id": "product_name",
         "flags": "NONE"
       },
       {
@@ -78,7 +78,7 @@
       {
         "name": "CategoryID",
         "ordinal": 4,
-        "nullable": true,
+        "nullable": false,
         "primaryKeyOrdinal": 0,
         "datatype": {
           "type": "NUMERIC",
@@ -241,7 +241,7 @@
   },
   "customDatasetSettings": {
     "customSql": {
-      "expressionStatement": "\nSELECT\n  p.\u0022ProductID\u0022,\n  p.\u0022ProductName\u0022,\n  p.\u0022SupplierID\u0022,\n  p.\u0022CategoryID\u0022,\n  p.\u0022QuantityPerUnit\u0022,\n  p.\u0022UnitPrice\u0022,\n  p.\u0022UnitsInStock\u0022,\n  p.\u0022UnitsOnOrder\u0022,\n  p.\u0022ReorderLevel\u0022,\n  p.\u0022Discontinued\u0022,\n  c.\u0022CategoryName\u0022,\n  c.\u0022Description\u0022,\n  c.\u0022Picture\u0022\nFROM ${Products} p\nINNER JOIN ${Categories} c\n  ON p.\u0022CategoryID\u0022 = c.\u0022CategoryID\u0022\n",
+      "expressionStatement": "\nSELECT p.\u0022ProductID\u0022, p.\u0022ProductName\u0022 PRODUCT_NAME, p.\u0022SupplierID\u0022, c.\u0022CategoryID\u0022, p.\u0022QuantityPerUnit\u0022, p.\u0022UnitPrice\u0022, p.\u0022UnitsInStock\u0022, p.\u0022UnitsOnOrder\u0022, p.\u0022ReorderLevel\u0022, p.\u0022Discontinued\u0022, \n       c.\u0022CategoryName\u0022, c.\u0022Description\u0022, c.\u0022Picture\u0022\nFROM ${Products} p\nINNER JOIN ${Categories} c ON p.\u0022CategoryID\u0022 = c.\u0022CategoryID\u0022;\n",
       "alias": [
         {
           "name": "Products",
