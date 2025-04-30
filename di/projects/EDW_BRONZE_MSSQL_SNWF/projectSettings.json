@@ -1,0 +1,13 @@
+{
+  "artifactsNaming": {
+    "suffixLiveViews": "__LIVE",
+    "suffixChangesView": "__CHANGES",
+    "suffixCurrentView": "_CURRENT",
+    "suffixHistoryViews": "__HISTORY",
+    "suffixLiveHistoryViews": "__LIVE_HISTORY",
+    "suffixInternalSchema": "__INTERNAL",
+    "prefixHeaderColumns": "hdr__",
+    "prefixSchema": "{{project.current.prefixSchema}}",
+    "defaultSchemaNameOption": "UPPER_CASE"
+  }
+}

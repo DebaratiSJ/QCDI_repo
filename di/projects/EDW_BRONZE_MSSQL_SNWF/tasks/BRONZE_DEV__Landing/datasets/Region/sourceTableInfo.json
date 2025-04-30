@@ -1,0 +1,73 @@
+{
+  "id": "$replicate$dbo_region",
+  "name": "dbo_Region",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "Region",
+    "dbSchema": "{{task.bronze_dev_landing-xpqr:null$_$dbo.schema}}",
+    "columns": [
+      {
+        "name": "RegionID",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "regionid",
+        "flags": "NONE"
+      },
+      {
+        "name": "RegionDescription",
+        "ordinal": 2,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "WSTRING",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "regiondescription",
+        "flags": "NONE"
+      },
+      {
+        "name": "TestCol",
+        "ordinal": 3,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "testcol",
+        "flags": "NONE"
+      },
+      {
+        "name": "Test2",
+        "ordinal": 4,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "test2",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

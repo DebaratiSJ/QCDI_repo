@@ -1,0 +1,22 @@
+{
+  "id": "city-xpqv",
+  "name": "City",
+  "type": "STORAGE",
+  "inputDatasets": [
+    {
+      "datasetId": "city",
+      "name": "City",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "bronze_dev_landing-xpqr"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "virtualDataset": false
+}
