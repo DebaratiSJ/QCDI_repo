@@ -22,14 +22,14 @@
     "task-type.datamart.warehouseSelectionMethod": "",
     "task-type.datamart.databaseName": "",
     "task-type.datamart.databaseSelectionMethod": "",
-    "task.dev_bronze_cross_trans-9ciy.databaseName": "",
-    "task.dev_bronze_cross_trans-9ciy.internalSchema": "",
-    "task.dev_bronze_cross_trans-9ciy.taskSchema": "",
-    "task.dev_bronze_cross_trans-9ciy.warehouseName": "",
+    "task.bronze_transform1-9cjh.databaseName": "",
+    "task.bronze_transform1-9cjh.internalSchema": "",
+    "task.bronze_transform1-9cjh.taskSchema": "",
+    "task.bronze_transform1-9cjh.warehouseName": "",
     "project.Dev_Bronze$_$EDW_BRONZE_MSSQL_SNWF.projectId": ""
   },
   "idToNameMap": {
-    "dev_bronze_cross_trans-9ciy": "DEV_BRONZE_PRODCAT_CROSS_TRANS"
+    "bronze_transform1-9cjh": "Bronze_Transform1"
   },
   "connectionProperties": {
     "{{id(connection, Connections.DEV_Deb_Snowflake_Target)}}": {
