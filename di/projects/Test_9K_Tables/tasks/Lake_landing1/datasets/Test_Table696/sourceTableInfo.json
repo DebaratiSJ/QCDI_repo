@@ -1,0 +1,11 @@
+{
+  "id": "$replicate$dbo_test_table696",
+  "name": "dbo_Test_Table696",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "Test_Table696",
+    "dbSchema": "{{task.lake_landing1-m4wx:null$_$dbo.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}
