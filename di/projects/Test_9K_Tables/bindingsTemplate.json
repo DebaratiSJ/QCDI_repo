@@ -1,0 +1,25 @@
+{
+  "variables": {
+    "projectName": "",
+    "platformConnection": "",
+    "cloudStagingConnection": "",
+    "task.lake_landing1-m4wx.databaseName": "",
+    "task.lake_landing1-m4wx.taskSchema": "",
+    "task.lake_landing1-m4wx.targetConnection": "",
+    "task.lake_landing1-m4wx.targetSchema": "",
+    "task.lake_landing1-m4wx.targetControlTableSchema": "",
+    "task.lake_landing1-m4wx.sourceConnection": "",
+    "task.lake_landing1-m4wx:null$_$dbo.schema": ""
+  },
+  "idToNameMap": {
+    "lake_landing1-m4wx": "Lake_landing1"
+  },
+  "connectionProperties": {
+    "{{id(connection, Shashi-New.Amazon_S3_Target)}}": {
+      "type": "reptgt_qdis3"
+    },
+    "{{id(connection, Shashi-New.Microsoft_SQL_Server_SupportCloud)}}": {
+      "type": "repsrc_mssql"
+    }
+  }
+}
