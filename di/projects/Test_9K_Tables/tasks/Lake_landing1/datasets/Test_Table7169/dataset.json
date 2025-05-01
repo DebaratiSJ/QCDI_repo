@@ -1,0 +1,15 @@
+{
+  "id": "test_table7169",
+  "name": "Test_Table7169",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "datasetId": "$replicate$dbo_test_table7169",
+      "name": "Test_Table7169",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "lake_landing1-m4wx",
+      "schema": "{{task.lake_landing1-m4wx:null$_$dbo.schema}}"
+    }
+  ],
+  "virtualDataset": false
+}
