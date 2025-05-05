@@ -30,18 +30,20 @@
     "task.schema_prefix_landing-foup.taskSchema": "",
     "task.schema_prefix_landing-foup.sourceConnection": "",
     "task.schema_prefix_landing-foup:null$_$dbo.schemaPattern": "",
-    "task.schema_prefix_landing-foup:null$_$dbo.schema": ""
+    "task.schema_prefix_landing-foup:null$_$dbo.schema": "",
+    "task.transform_prefix-tfod.databaseName": "{{task-type.transform.databaseName}}",
+    "task.transform_prefix-tfod.internalSchema": "",
+    "task.transform_prefix-tfod.taskSchema": "",
+    "task.transform_prefix-tfod.warehouseName": "{{task-type.transform.warehouseName}}"
   },
   "idToNameMap": {
     "schema_prefix_storage-fouq": "Schema_Prefix_Storage",
-    "schema_prefix_landing-foup": "Schema_Prefix_Landing"
+    "schema_prefix_landing-foup": "Schema_Prefix_Landing",
+    "transform_prefix-tfod": "Transform_Prefix"
   },
   "connectionProperties": {
-    "{{id(connection, Shashi-New.Snowflake_Target_RHEL9)}}": {
+    "{{id(connection, Shashi_space.Snowflake_Target)}}": {
       "type": "reptgt_qdisnowflake"
-    },
-    "{{id(connection, Shashi-New.Microsoft_SQL_Server_SupportCloud)}}": {
-      "type": "repsrc_mssql"
     }
   }
 }
