@@ -22,18 +22,19 @@
     "task-type.datamart.warehouseSelectionMethod": "",
     "task-type.datamart.databaseName": "",
     "task-type.datamart.databaseSelectionMethod": "",
-    "task.schema_prefix_landing-foup.databaseName": "{{task-type.landing.databaseName}}",
-    "task.schema_prefix_landing-foup.taskSchema": "",
-    "task.schema_prefix_landing-foup.sourceConnection": "",
-    "task.schema_prefix_landing-foup:null$_$dbo.schema": "",
     "task.schema_prefix_storage-fouq.databaseName": "{{task-type.storage.databaseName}}",
     "task.schema_prefix_storage-fouq.internalSchema": "",
     "task.schema_prefix_storage-fouq.taskSchema": "",
-    "task.schema_prefix_storage-fouq.warehouseName": "{{task-type.storage.warehouseName}}"
+    "task.schema_prefix_storage-fouq.warehouseName": "{{task-type.storage.warehouseName}}",
+    "task.schema_prefix_landing-foup.databaseName": "{{task-type.landing.databaseName}}",
+    "task.schema_prefix_landing-foup.taskSchema": "",
+    "task.schema_prefix_landing-foup.sourceConnection": "",
+    "task.schema_prefix_landing-foup:null$_$dbo.schemaPattern": "",
+    "task.schema_prefix_landing-foup:null$_$dbo.schema": ""
   },
   "idToNameMap": {
-    "schema_prefix_landing-foup": "Schema_Prefix_Landing",
-    "schema_prefix_storage-fouq": "Schema_Prefix_Storage"
+    "schema_prefix_storage-fouq": "Schema_Prefix_Storage",
+    "schema_prefix_landing-foup": "Schema_Prefix_Landing"
   },
   "connectionProperties": {
     "{{id(connection, Shashi-New.Snowflake_Target_RHEL9)}}": {

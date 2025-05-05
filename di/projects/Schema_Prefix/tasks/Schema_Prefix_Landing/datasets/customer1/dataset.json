@@ -1,0 +1,16 @@
+{
+  "id": "customer1",
+  "name": "customer1",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "datasetId": "$replicate$dbo_customer1",
+      "name": "customer1",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "schema_prefix_landing-foup",
+      "schema": "{{task.schema_prefix_landing-foup:null$_$dbo.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}
