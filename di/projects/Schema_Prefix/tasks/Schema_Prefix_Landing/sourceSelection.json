@@ -1,6 +1,12 @@
 {
   "sourceConnection": "{{task.schema_prefix_landing-foup.sourceConnection}}",
-  "includePatterns": [],
+  "includePatterns": [
+    {
+      "tablePattern": "%",
+      "schemaPattern": "{{task.schema_prefix_landing-foup:null$_$dbo.schemaPattern}}",
+      "type": "TABLE"
+    }
+  ],
   "excludePatterns": [],
   "explicitlySelected": [
     {
