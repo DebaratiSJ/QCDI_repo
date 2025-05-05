@@ -1,0 +1,13 @@
+{
+  "sourceConnection": "{{task.schema_prefix_landing-foup.sourceConnection}}",
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "name": "customer",
+      "schema": "{{task.schema_prefix_landing-foup:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_customer"
+    }
+  ]
+}

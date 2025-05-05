@@ -1,0 +1,46 @@
+{
+  "variables": {
+    "projectName": "",
+    "platformConnection": "",
+    "cloudStagingConnection": "",
+    "project.current.prefixSchema": "",
+    "task-type.landing.warehouseName": "",
+    "task-type.landing.warehouseSelectionMethod": "",
+    "task-type.landing.databaseName": "",
+    "task-type.landing.databaseSelectionMethod": "",
+    "task-type.registered.databaseName": "",
+    "task-type.registered.databaseSelectionMethod": "",
+    "task-type.storage.warehouseName": "",
+    "task-type.storage.warehouseSelectionMethod": "",
+    "task-type.storage.databaseName": "",
+    "task-type.storage.databaseSelectionMethod": "",
+    "task-type.transform.warehouseName": "",
+    "task-type.transform.warehouseSelectionMethod": "",
+    "task-type.transform.databaseName": "",
+    "task-type.transform.databaseSelectionMethod": "",
+    "task-type.datamart.warehouseName": "",
+    "task-type.datamart.warehouseSelectionMethod": "",
+    "task-type.datamart.databaseName": "",
+    "task-type.datamart.databaseSelectionMethod": "",
+    "task.schema_prefix_landing-foup.databaseName": "{{task-type.landing.databaseName}}",
+    "task.schema_prefix_landing-foup.taskSchema": "",
+    "task.schema_prefix_landing-foup.sourceConnection": "",
+    "task.schema_prefix_landing-foup:null$_$dbo.schema": "",
+    "task.schema_prefix_storage-fouq.databaseName": "{{task-type.storage.databaseName}}",
+    "task.schema_prefix_storage-fouq.internalSchema": "",
+    "task.schema_prefix_storage-fouq.taskSchema": "",
+    "task.schema_prefix_storage-fouq.warehouseName": "{{task-type.storage.warehouseName}}"
+  },
+  "idToNameMap": {
+    "schema_prefix_landing-foup": "Schema_Prefix_Landing",
+    "schema_prefix_storage-fouq": "Schema_Prefix_Storage"
+  },
+  "connectionProperties": {
+    "{{id(connection, Shashi-New.Snowflake_Target_RHEL9)}}": {
+      "type": "reptgt_qdisnowflake"
+    },
+    "{{id(connection, Shashi-New.Microsoft_SQL_Server_SupportCloud)}}": {
+      "type": "repsrc_mssql"
+    }
+  }
+}

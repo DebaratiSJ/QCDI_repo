@@ -1,0 +1,23 @@
+{
+  "id": "customer-fous",
+  "name": "customer",
+  "type": "STORAGE",
+  "inputDatasets": [
+    {
+      "datasetId": "customer",
+      "name": "customer",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "schema_prefix_landing-foup"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "virtualDataset": false,
+  "description": ""
+}
