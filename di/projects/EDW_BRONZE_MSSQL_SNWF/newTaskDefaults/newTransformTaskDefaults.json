@@ -25,5 +25,6 @@
       "enableOpenCatalogSync": false,
       "snowflakeOpenCatalog": ""
     }
-  }
+  },
+  "viewType": "DEFAULT"
 }
