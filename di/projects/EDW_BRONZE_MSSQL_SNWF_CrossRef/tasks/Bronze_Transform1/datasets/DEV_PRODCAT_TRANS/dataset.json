@@ -1,18 +1,18 @@
 {
-  "id": "dev_prodcat_trans-5f54",
+  "id": "dev_prodcat_trans-bk6g",
   "name": "DEV_PRODCAT_TRANS",
   "type": "CUSTOM",
   "inputDatasets": [
     {
       "datasetId": "categories-xpqu",
       "name": "Categories",
-      "projectId": "{{project.Dev_Bronze$_$EDW_BRONZE_MSSQL_SNWF.projectId}}",
+      "projectId": "{{project.Dev_Bronze$_$EDW_COMMON_BRONZE.projectId}}",
       "taskId": "bronze_dev_storage-xpqs"
     },
     {
       "datasetId": "products-xpqy",
       "name": "Products",
-      "projectId": "{{project.Dev_Bronze$_$EDW_BRONZE_MSSQL_SNWF.projectId}}",
+      "projectId": "{{project.Dev_Bronze$_$EDW_COMMON_BRONZE.projectId}}",
       "taskId": "bronze_dev_storage-xpqs"
     }
   ],
@@ -241,15 +241,15 @@
   },
   "customDatasetSettings": {
     "customSql": {
-      "expressionStatement": "\nSELECT p.\u0022ProductID\u0022, p.\u0022ProductName\u0022 PRODUCT_NAME, p.\u0022SupplierID\u0022, c.\u0022CategoryID\u0022, p.\u0022QuantityPerUnit\u0022, p.\u0022UnitPrice\u0022, p.\u0022UnitsInStock\u0022, p.\u0022UnitsOnOrder\u0022, p.\u0022ReorderLevel\u0022, p.\u0022Discontinued\u0022, \n       c.\u0022CategoryName\u0022 CATEGORY_NAME, c.\u0022Description\u0022, c.\u0022Picture\u0022\nFROM ${Products} p\nINNER JOIN ${Categories} c ON p.\u0022CategoryID\u0022 = c.\u0022CategoryID\u0022;\n",
+      "expressionStatement": "SELECT p.\u0022ProductID\u0022, p.\u0022ProductName\u0022 PRODUCT_NAME, p.\u0022SupplierID\u0022, c.\u0022CategoryID\u0022, p.\u0022QuantityPerUnit\u0022, p.\u0022UnitPrice\u0022, p.\u0022UnitsInStock\u0022, p.\u0022UnitsOnOrder\u0022, p.\u0022ReorderLevel\u0022, p.\u0022Discontinued\u0022, \n       c.\u0022CategoryName\u0022 CATEGORY_NAME, c.\u0022Description\u0022, c.\u0022Picture\u0022\nFROM ${Products} p\nINNER JOIN ${Categories} c ON p.\u0022CategoryID\u0022 = c.\u0022CategoryID\u0022;",
       "alias": [
         {
           "name": "Products",
-          "value": "68127d8d4c631eb858e45e39$_$bronze_dev_storage-xpqs$_$products-xpqy"
+          "value": "681bbfc87e6f9effb261f82f$_$bronze_dev_storage-xpqs$_$products-xpqy"
         },
         {
           "name": "Categories",
-          "value": "68127d8d4c631eb858e45e39$_$bronze_dev_storage-xpqs$_$categories-xpqu"
+          "value": "681bbfc87e6f9effb261f82f$_$bronze_dev_storage-xpqs$_$categories-xpqu"
         }
       ]
     },
