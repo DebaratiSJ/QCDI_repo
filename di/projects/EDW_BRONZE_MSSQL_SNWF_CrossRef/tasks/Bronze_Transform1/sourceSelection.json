@@ -3,14 +3,14 @@
   "excludePatterns": [],
   "explicitlySelected": [
     {
-      "sourceProject": "{{project.Dev_Bronze$_$EDW_BRONZE_MSSQL_SNWF.projectId}}",
+      "sourceProject": "{{project.Dev_Bronze$_$EDW_COMMON_BRONZE.projectId}}",
       "sourceTask": "bronze_dev_storage-xpqs",
       "name": "Categories",
       "type": "NONE",
       "sourceTableId": "categories-xpqu"
     },
     {
-      "sourceProject": "{{project.Dev_Bronze$_$EDW_BRONZE_MSSQL_SNWF.projectId}}",
+      "sourceProject": "{{project.Dev_Bronze$_$EDW_COMMON_BRONZE.projectId}}",
       "sourceTask": "bronze_dev_storage-xpqs",
       "name": "Products",
       "type": "NONE",

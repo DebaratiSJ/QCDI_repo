@@ -8,14 +8,14 @@
     "artifactsPrefix": ""
   },
   "artifactsLocation": {
-    "internalSchema": "{{task.bronze_transform1-9cjh.internalSchema}}",
-    "taskSchema": "{{task.bronze_transform1-9cjh.taskSchema}}",
-    "databaseName": "{{task.bronze_transform1-9cjh.databaseName}}"
+    "internalSchema": "{{task.bronze_transform1-1tsr.internalSchema}}",
+    "taskSchema": "{{task.bronze_transform1-1tsr.taskSchema}}",
+    "databaseName": "{{task.bronze_transform1-1tsr.databaseName}}"
   },
   "taskRuntime": {
     "tableUpdateConcurrency": 10,
     "warehouseSelection": {
-      "warehouseName": "{{task.bronze_transform1-9cjh.warehouseName}}"
+      "warehouseName": "{{task.bronze_transform1-1tsr.warehouseName}}"
     }
   },
   "tableTypeSettings": {
