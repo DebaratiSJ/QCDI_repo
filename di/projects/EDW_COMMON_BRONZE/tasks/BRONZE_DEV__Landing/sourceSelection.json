@@ -1,0 +1,61 @@
+{
+  "sourceConnection": "{{task.bronze_dev_landing-xpqr.sourceConnection}}",
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "name": "Categories",
+      "schema": "{{task.bronze_dev_landing-xpqr:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_categories"
+    },
+    {
+      "name": "City",
+      "schema": "{{task.bronze_dev_landing-xpqr:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_city"
+    },
+    {
+      "name": "Customers",
+      "schema": "{{task.bronze_dev_landing-xpqr:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_customers"
+    },
+    {
+      "name": "Employees",
+      "schema": "{{task.bronze_dev_landing-xpqr:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_employees"
+    },
+    {
+      "name": "Products",
+      "schema": "{{task.bronze_dev_landing-xpqr:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_products"
+    },
+    {
+      "name": "Region",
+      "schema": "{{task.bronze_dev_landing-xpqr:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_region"
+    },
+    {
+      "name": "Shippers",
+      "schema": "{{task.bronze_dev_landing-xpqr:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_shippers"
+    },
+    {
+      "name": "Suppliers",
+      "schema": "{{task.bronze_dev_landing-xpqr:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_suppliers"
+    },
+    {
+      "name": "Territories",
+      "schema": "{{task.bronze_dev_landing-xpqr:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_territories"
+    }
+  ]
+}
