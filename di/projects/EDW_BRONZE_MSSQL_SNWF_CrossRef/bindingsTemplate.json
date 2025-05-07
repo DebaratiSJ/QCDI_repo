@@ -22,14 +22,19 @@
     "task-type.datamart.warehouseSelectionMethod": "",
     "task-type.datamart.databaseName": "",
     "task-type.datamart.databaseSelectionMethod": "",
-    "task.bronze_transform1-1tsr.databaseName": "{{task-type.transform.databaseName}}",
-    "task.bronze_transform1-1tsr.internalSchema": "",
-    "task.bronze_transform1-1tsr.taskSchema": "",
-    "task.bronze_transform1-1tsr.warehouseName": "{{task-type.transform.warehouseName}}",
-    "project.Dev_Bronze$_$EDW_COMMON_BRONZE.projectId": ""
+    "task.bronze_transform1-9cjh.databaseName": "{{task-type.transform.databaseName}}",
+    "task.bronze_transform1-9cjh.internalSchema": "",
+    "task.bronze_transform1-9cjh.taskSchema": "",
+    "task.bronze_transform1-9cjh.warehouseName": "{{task-type.transform.warehouseName}}",
+    "project.Dev_Bronze$_$EDW_COMMON_MSSQL_SNWF.projectId": "",
+    "task.bronze_transform2-0d-d.databaseName": "{{task-type.transform.databaseName}}",
+    "task.bronze_transform2-0d-d.internalSchema": "",
+    "task.bronze_transform2-0d-d.taskSchema": "",
+    "task.bronze_transform2-0d-d.warehouseName": "{{task-type.transform.warehouseName}}"
   },
   "idToNameMap": {
-    "bronze_transform1-1tsr": "Bronze_Transform1"
+    "bronze_transform1-9cjh": "Bronze_Transform1",
+    "bronze_transform2-0d-d": "Bronze_Transform2"
   },
   "connectionProperties": {
     "{{id(connection, Shashi_SNF1.Snowflake_Target_Shashi_SNF1)}}": {
