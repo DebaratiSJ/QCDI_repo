@@ -1,0 +1,90 @@
+{
+  "id": "new_city-1tsx",
+  "name": "NEW_City",
+  "type": "CUSTOM",
+  "inputDatasets": [
+    {
+      "datasetId": "city-xpqv",
+      "name": "City",
+      "projectId": "{{project.Dev_Bronze$_$EDW_COMMON_BRONZE.projectId}}",
+      "taskId": "bronze_dev_storage-xpqs"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "tableDef": {
+    "name": "NEW_City",
+    "columns": [
+      {
+        "name": "City_Id",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 38,
+          "scale": 0,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(38,0)"
+        },
+        "id": "city_id",
+        "flags": "NONE"
+      },
+      {
+        "name": "City",
+        "ordinal": 2,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 10,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(10)"
+        },
+        "id": "city",
+        "flags": "NONE"
+      },
+      {
+        "name": "Create_Date",
+        "ordinal": 3,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "DATETIME",
+          "length": 0,
+          "precision": 3,
+          "scale": 0,
+          "originalType": "TIMESTAMPNTZ",
+          "originalTypeFull": "TIMESTAMPNTZ(3)"
+        },
+        "id": "create_date",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  },
+  "customDatasetSettings": {
+    "customSql": {
+      "expressionStatement": "Select \u0022City_Id\u0022, \u0022City\u0022,\u0022Create_Date\u0022 from ${City}",
+      "alias": [
+        {
+          "name": "City",
+          "value": "681bbfc87e6f9effb261f82f$_$bronze_dev_storage-xpqs$_$city-xpqv"
+        }
+      ]
+    },
+    "incremental": false
+  },
+  "virtualDataset": false,
+  "description": ""
+}

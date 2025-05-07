@@ -15,6 +15,13 @@
       "name": "Products",
       "type": "NONE",
       "sourceTableId": "products-xpqy"
+    },
+    {
+      "sourceProject": "{{project.Dev_Bronze$_$EDW_COMMON_BRONZE.projectId}}",
+      "sourceTask": "bronze_dev_storage-xpqs",
+      "name": "City",
+      "type": "NONE",
+      "sourceTableId": "city-xpqv"
     }
   ]
 }
