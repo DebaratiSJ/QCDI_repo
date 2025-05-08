@@ -32,7 +32,7 @@
     "bronze_transform1-1tsr": "Bronze_Transform1"
   },
   "connectionProperties": {
-    "{{id(connection, Shashi_SNF1.Snowflake_Target_Shashi_SNF1)}}": {
+    "{{id(connection, Shashi_New.Snowflake_Target)}}": {
       "type": "reptgt_qdisnowflake"
     }
   }
