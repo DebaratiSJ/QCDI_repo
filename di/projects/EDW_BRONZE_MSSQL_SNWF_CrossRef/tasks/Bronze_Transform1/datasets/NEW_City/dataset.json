@@ -68,6 +68,22 @@
         },
         "id": "create_date",
         "flags": "NONE"
+      },
+      {
+        "name": "Create_Date",
+        "ordinal": 4,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "DATETIME",
+          "length": 0,
+          "precision": 3,
+          "scale": 0,
+          "originalType": "TIMESTAMPNTZ",
+          "originalTypeFull": "TIMESTAMPNTZ(3)"
+        },
+        "id": "create_date-aab1",
+        "flags": "NONE"
       }
     ],
     "secureQri": "",
@@ -75,7 +91,7 @@
   },
   "customDatasetSettings": {
     "customSql": {
-      "expressionStatement": "Select \u0022City_Id\u0022, \u0022City\u0022,\u0022Create_Date\u0022 from ${City}",
+      "expressionStatement": "Select \u0022City_Id\u0022, \u0022City\u0022,\u0022Create_Date\u0022,\u0022Create_Date\u0022 from ${City}",
       "alias": [
         {
           "name": "City",
