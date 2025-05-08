@@ -1,0 +1,25 @@
+{
+  "sourceConnection": "{{task.sha0508_landing-0ehy.sourceConnection}}",
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "name": "Categories",
+      "schema": "{{task.sha0508_landing-0ehy:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_categories"
+    },
+    {
+      "name": "City",
+      "schema": "{{task.sha0508_landing-0ehy:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_city"
+    },
+    {
+      "name": "Customers",
+      "schema": "{{task.sha0508_landing-0ehy:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_customers"
+    }
+  ]
+}
