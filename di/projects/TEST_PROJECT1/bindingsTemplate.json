@@ -22,6 +22,10 @@
     "task-type.datamart.warehouseSelectionMethod": "",
     "task-type.datamart.databaseName": "",
     "task-type.datamart.databaseSelectionMethod": "",
+    "task.transform-1tbg.databaseName": "{{task-type.transform.databaseName}}",
+    "task.transform-1tbg.internalSchema": "",
+    "task.transform-1tbg.taskSchema": "",
+    "task.transform-1tbg.warehouseName": "{{task-type.transform.warehouseName}}",
     "task.onboarding_landing-blda.databaseName": "{{task-type.landing.databaseName}}",
     "task.onboarding_landing-blda.taskSchema": "",
     "task.onboarding_landing-blda.sourceConnection": "",
@@ -30,22 +34,20 @@
     "task.onboarding_storage-bldb.internalSchema": "",
     "task.onboarding_storage-bldb.taskSchema": "",
     "task.onboarding_storage-bldb.warehouseName": "{{task-type.storage.warehouseName}}",
-    "task.transform-1tbg.databaseName": "{{task-type.transform.databaseName}}",
-    "task.transform-1tbg.internalSchema": "",
-    "task.transform-1tbg.taskSchema": "",
-    "task.transform-1tbg.warehouseName": "{{task-type.transform.warehouseName}}"
+    "task.transform_1-wr2u.databaseName": "{{task-type.transform.databaseName}}",
+    "task.transform_1-wr2u.internalSchema": "",
+    "task.transform_1-wr2u.taskSchema": "",
+    "task.transform_1-wr2u.warehouseName": "{{task-type.transform.warehouseName}}"
   },
   "idToNameMap": {
+    "transform-1tbg": "Transform",
     "onboarding_landing-blda": "Onboarding_Landing",
     "onboarding_storage-bldb": "Onboarding_Storage",
-    "transform-1tbg": "Transform"
+    "transform_1-wr2u": "Transform_1"
   },
   "connectionProperties": {
-    "{{id(connection, Suresh_Silver.Suresh_github_Snowflake_Target)}}": {
+    "{{id(connection, Connections.DEV_Deb_Snowflake_Target)}}": {
       "type": "reptgt_qdisnowflake"
-    },
-    "{{id(connection, Connections.Shai_Northwind_MS_SQL_Server_(log_based))}}": {
-      "type": "repsrc_mssql"
     }
   }
 }

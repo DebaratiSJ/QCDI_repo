@@ -1,0 +1,328 @@
+{
+  "id": "city-yfpv",
+  "name": "City_B",
+  "type": "TRANSFORM_MODEL_BASED",
+  "inputDatasets": [
+    {
+      "datasetId": "city-bldd",
+      "name": "City",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "onboarding_storage-bldb"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "OFF",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "tableDef": {
+    "name": "City_B",
+    "dbSchema": "BRANCHB_transform_1",
+    "dbName": "DEB_DB1",
+    "columns": [
+      {
+        "name": "City_Id",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "INTEGER"
+        },
+        "expression": {
+          "expressionStatement": "${City_Id}",
+          "alias": [
+            {
+              "name": "City_Id",
+              "value": "City_Id"
+            }
+          ]
+        },
+        "id": "city_id",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "City",
+        "ordinal": 2,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 10,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(10)"
+        },
+        "expression": {
+          "expressionStatement": "${City}",
+          "alias": [
+            {
+              "name": "City",
+              "value": "City"
+            }
+          ]
+        },
+        "id": "city",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "Create_Date",
+        "ordinal": 3,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "DATETIME",
+          "length": 0,
+          "precision": 3,
+          "scale": 0,
+          "originalTypeFull": "TIMESTAMP_NTZ(3)"
+        },
+        "expression": {
+          "expressionStatement": "${Create_Date}",
+          "alias": [
+            {
+              "name": "Create_Date",
+              "value": "Create_Date"
+            }
+          ]
+        },
+        "id": "create_date",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "Col1",
+        "ordinal": 4,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(100)"
+        },
+        "expression": {
+          "expressionStatement": "${Col1}",
+          "alias": [
+            {
+              "name": "Col1",
+              "value": "Col1"
+            }
+          ]
+        },
+        "id": "col1",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "Col2",
+        "ordinal": 5,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(100)"
+        },
+        "expression": {
+          "expressionStatement": "${Col2}",
+          "alias": [
+            {
+              "name": "Col2",
+              "value": "Col2"
+            }
+          ]
+        },
+        "id": "col2",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "col3",
+        "ordinal": 6,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(50)"
+        },
+        "expression": {
+          "expressionStatement": "${col3}",
+          "alias": [
+            {
+              "name": "col3",
+              "value": "col3"
+            }
+          ]
+        },
+        "id": "col3",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "col4",
+        "ordinal": 7,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(50)"
+        },
+        "expression": {
+          "expressionStatement": "${col4}",
+          "alias": [
+            {
+              "name": "col4",
+              "value": "col4"
+            }
+          ]
+        },
+        "id": "col4",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      }
+    ],
+    "entityId": "city-yfpv",
+    "secureQri": "",
+    "fullLoadOnly": false
+  },
+  "modelBasedTransformDatasetSettings": {
+    "mappings": [
+      {
+        "sourceDataEntityKey": {
+          "type": "NONE",
+          "entityId": "city-bldd",
+          "name": "City",
+          "projectId": "681ca7c6320d428a5b6cb0ca",
+          "dataAppId": "onboarding_storage-bldb"
+        },
+        "mappingFields": [
+          {
+            "toColName": "City_Id",
+            "mappingType": "EXPRESSION",
+            "expression": {
+              "expressionStatement": "${City_Id}",
+              "alias": [
+                {
+                  "name": "City_Id",
+                  "value": "City_Id"
+                }
+              ]
+            }
+          },
+          {
+            "toColName": "City",
+            "mappingType": "EXPRESSION",
+            "expression": {
+              "expressionStatement": "${City}",
+              "alias": [
+                {
+                  "name": "City",
+                  "value": "City"
+                }
+              ]
+            }
+          },
+          {
+            "toColName": "Create_Date",
+            "mappingType": "EXPRESSION",
+            "expression": {
+              "expressionStatement": "${Create_Date}",
+              "alias": [
+                {
+                  "name": "Create_Date",
+                  "value": "Create_Date"
+                }
+              ]
+            }
+          },
+          {
+            "toColName": "Col1",
+            "mappingType": "EXPRESSION",
+            "expression": {
+              "expressionStatement": "${Col1}",
+              "alias": [
+                {
+                  "name": "Col1",
+                  "value": "Col1"
+                }
+              ]
+            }
+          },
+          {
+            "toColName": "Col2",
+            "mappingType": "EXPRESSION",
+            "expression": {
+              "expressionStatement": "${Col2}",
+              "alias": [
+                {
+                  "name": "Col2",
+                  "value": "Col2"
+                }
+              ]
+            }
+          },
+          {
+            "toColName": "col3",
+            "mappingType": "EXPRESSION",
+            "expression": {
+              "expressionStatement": "${col3}",
+              "alias": [
+                {
+                  "name": "col3",
+                  "value": "col3"
+                }
+              ]
+            }
+          },
+          {
+            "toColName": "col4",
+            "mappingType": "EXPRESSION",
+            "expression": {
+              "expressionStatement": "${col4}",
+              "alias": [
+                {
+                  "name": "col4",
+                  "value": "col4"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "virtualDataset": false,
+  "description": ""
+}
