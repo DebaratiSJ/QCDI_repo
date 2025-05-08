@@ -15,6 +15,34 @@
       "name": "Products",
       "type": "NONE",
       "sourceTableId": "products-xpqy"
+    },
+    {
+      "sourceProject": "{{project.Dev_Bronze$_$EDW_BRONZE_MSSQL_SNWF.projectId}}",
+      "sourceTask": "bronze_dev_storage-xpqs",
+      "name": "City",
+      "type": "NONE",
+      "sourceTableId": "city-xpqv"
+    },
+    {
+      "sourceProject": "{{project.Dev_Bronze$_$EDW_BRONZE_MSSQL_SNWF.projectId}}",
+      "sourceTask": "bronze_dev_storage-xpqs",
+      "name": "Customers",
+      "type": "NONE",
+      "sourceTableId": "customers-xpqw"
+    },
+    {
+      "sourceProject": "{{project.Dev_Bronze$_$EDW_BRONZE_MSSQL_SNWF.projectId}}",
+      "sourceTask": "bronze_dev_storage-xpqs",
+      "name": "Employees",
+      "type": "NONE",
+      "sourceTableId": "employees-xpqx"
+    },
+    {
+      "sourceProject": "{{project.Dev_Bronze$_$EDW_BRONZE_MSSQL_SNWF.projectId}}",
+      "sourceTask": "bronze_dev_storage-xpqs",
+      "name": "Region",
+      "type": "NONE",
+      "sourceTableId": "region-xpqz"
     }
   ]
 }
