@@ -1,0 +1,51 @@
+{
+  "variables": {
+    "projectName": "",
+    "platformConnection": "",
+    "cloudStagingConnection": "",
+    "project.current.prefixSchema": "",
+    "task-type.landing.warehouseName": "",
+    "task-type.landing.warehouseSelectionMethod": "",
+    "task-type.landing.databaseName": "",
+    "task-type.landing.databaseSelectionMethod": "",
+    "task-type.registered.databaseName": "",
+    "task-type.registered.databaseSelectionMethod": "",
+    "task-type.storage.warehouseName": "",
+    "task-type.storage.warehouseSelectionMethod": "",
+    "task-type.storage.databaseName": "",
+    "task-type.storage.databaseSelectionMethod": "",
+    "task-type.transform.warehouseName": "",
+    "task-type.transform.warehouseSelectionMethod": "",
+    "task-type.transform.databaseName": "",
+    "task-type.transform.databaseSelectionMethod": "",
+    "task-type.datamart.warehouseName": "",
+    "task-type.datamart.warehouseSelectionMethod": "",
+    "task-type.datamart.databaseName": "",
+    "task-type.datamart.databaseSelectionMethod": "",
+    "task.onboarding_landing-wr3i.databaseName": "{{task-type.landing.databaseName}}",
+    "task.onboarding_landing-wr3i.taskSchema": "",
+    "task.onboarding_landing-wr3i.sourceConnection": "",
+    "task.onboarding_landing-wr3i:null$_$dbo.schema": "",
+    "task.onboarding_storage-wr3j.databaseName": "{{task-type.storage.databaseName}}",
+    "task.onboarding_storage-wr3j.internalSchema": "",
+    "task.onboarding_storage-wr3j.taskSchema": "",
+    "task.onboarding_storage-wr3j.warehouseName": "{{task-type.storage.warehouseName}}",
+    "task.transform-yfql.databaseName": "{{task-type.transform.databaseName}}",
+    "task.transform-yfql.internalSchema": "",
+    "task.transform-yfql.taskSchema": "",
+    "task.transform-yfql.warehouseName": "{{task-type.transform.warehouseName}}"
+  },
+  "idToNameMap": {
+    "onboarding_landing-wr3i": "Onboarding_Landing",
+    "onboarding_storage-wr3j": "Onboarding_Storage",
+    "transform-yfql": "Transform"
+  },
+  "connectionProperties": {
+    "{{id(connection, Suresh_Silver.Suresh_github_Snowflake_Target)}}": {
+      "type": "reptgt_qdisnowflake"
+    },
+    "{{id(connection, Connections.Shai_Northwind_MS_SQL_Server_(log_based))}}": {
+      "type": "repsrc_mssql"
+    }
+  }
+}
