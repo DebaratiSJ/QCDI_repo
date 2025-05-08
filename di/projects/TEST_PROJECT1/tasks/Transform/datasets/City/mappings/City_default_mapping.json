@@ -1,0 +1,97 @@
+{
+  "sourceDataEntityKey": {
+    "datasetId": "city-bldd",
+    "name": "City",
+    "projectId": "{{ref(project.current.projectId)}}",
+    "taskId": "onboarding_storage-bldb"
+  },
+  "mappingFields": [
+    {
+      "columnId": "city_id",
+      "expression": {
+        "expressionStatement": "${City_Id}",
+        "alias": [
+          {
+            "name": "City_Id",
+            "value": "City_Id"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "city",
+      "expression": {
+        "expressionStatement": "${City}",
+        "alias": [
+          {
+            "name": "City",
+            "value": "City"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "create_date",
+      "expression": {
+        "expressionStatement": "${Create_Date}",
+        "alias": [
+          {
+            "name": "Create_Date",
+            "value": "Create_Date"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "col1",
+      "expression": {
+        "expressionStatement": "${Col1}",
+        "alias": [
+          {
+            "name": "Col1",
+            "value": "Col1"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "col2",
+      "expression": {
+        "expressionStatement": "${Col2}",
+        "alias": [
+          {
+            "name": "Col2",
+            "value": "Col2"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "col3",
+      "expression": {
+        "expressionStatement": "${col3}",
+        "alias": [
+          {
+            "name": "col3",
+            "value": "col3"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "col4",
+      "expression": {
+        "expressionStatement": "${col4}",
+        "alias": [
+          {
+            "name": "col4",
+            "value": "col4"
+          }
+        ]
+      }
+    }
+  ],
+  "id": "city_default_mapping-0egn",
+  "name": "City_default_mapping",
+  "description": ""
+}
