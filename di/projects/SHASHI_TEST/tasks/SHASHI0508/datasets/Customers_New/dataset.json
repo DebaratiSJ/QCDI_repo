@@ -51,7 +51,7 @@
         }
       },
       {
-        "name": "CompanyName",
+        "name": "COMPANY",
         "ordinal": 2,
         "nullable": false,
         "primaryKeyOrdinal": 0,
