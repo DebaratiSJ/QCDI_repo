@@ -22,7 +22,7 @@
     "name": "Categories",
     "columns": [
       {
-        "name": "CategoryID",
+        "name": "CATEGORY_NO",
         "ordinal": 1,
         "nullable": false,
         "primaryKeyOrdinal": 1,

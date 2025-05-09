@@ -22,35 +22,32 @@
     "task-type.datamart.warehouseSelectionMethod": "",
     "task-type.datamart.databaseName": "",
     "task-type.datamart.databaseSelectionMethod": "",
-    "task.sha0508_storage-0ehz.databaseName": "{{task-type.storage.databaseName}}",
-    "task.sha0508_storage-0ehz.internalSchema": "",
-    "task.sha0508_storage-0ehz.taskSchema": "",
-    "task.sha0508_storage-0ehz.warehouseName": "{{task-type.storage.warehouseName}}",
-    "task.shashi0508-1tcm.databaseName": "{{task-type.transform.databaseName}}",
-    "task.shashi0508-1tcm.internalSchema": "",
-    "task.shashi0508-1tcm.taskSchema": "",
-    "task.shashi0508-1tcm.warehouseName": "{{task-type.transform.warehouseName}}",
+    "task.deb0508_transform-1tcx.databaseName": "{{task-type.transform.databaseName}}",
+    "task.deb0508_transform-1tcx.internalSchema": "",
+    "task.deb0508_transform-1tcx.taskSchema": "",
+    "task.deb0508_transform-1tcx.warehouseName": "{{task-type.transform.warehouseName}}",
     "task.sha0508_landing-0ehy.databaseName": "{{task-type.landing.databaseName}}",
     "task.sha0508_landing-0ehy.taskSchema": "",
     "task.sha0508_landing-0ehy.sourceConnection": "",
     "task.sha0508_landing-0ehy:null$_$dbo.schema": "",
-    "task.deb0508_transform-1tcx.databaseName": "{{task-type.transform.databaseName}}",
-    "task.deb0508_transform-1tcx.internalSchema": "",
-    "task.deb0508_transform-1tcx.taskSchema": "",
-    "task.deb0508_transform-1tcx.warehouseName": "{{task-type.transform.warehouseName}}"
+    "task.shashi0508-1tcm.databaseName": "{{task-type.transform.databaseName}}",
+    "task.shashi0508-1tcm.internalSchema": "",
+    "task.shashi0508-1tcm.taskSchema": "",
+    "task.shashi0508-1tcm.warehouseName": "{{task-type.transform.warehouseName}}",
+    "task.sha0508_storage-0ehz.databaseName": "{{task-type.storage.databaseName}}",
+    "task.sha0508_storage-0ehz.internalSchema": "",
+    "task.sha0508_storage-0ehz.taskSchema": "",
+    "task.sha0508_storage-0ehz.warehouseName": "{{task-type.storage.warehouseName}}"
   },
   "idToNameMap": {
-    "sha0508_storage-0ehz": "SHA0508_Storage",
-    "shashi0508-1tcm": "SHASHI0508",
+    "deb0508_transform-1tcx": "DEB0508_TRANSFORM",
     "sha0508_landing-0ehy": "SHA0508_Landing",
-    "deb0508_transform-1tcx": "DEB0508_TRANSFORM"
+    "shashi0508-1tcm": "SHASHI0508",
+    "sha0508_storage-0ehz": "SHA0508_Storage"
   },
   "connectionProperties": {
     "{{id(connection, Connections.DEV_Deb_Snowflake_Target)}}": {
       "type": "reptgt_qdisnowflake"
-    },
-    "{{id(connection, Connections.Shai_Northwind_MS_SQL_Server_(log_based))}}": {
-      "type": "repsrc_mssql"
     }
   }
 }
