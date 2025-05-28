@@ -1,0 +1,73 @@
+{
+  "sourceDataEntityKey": {
+    "datasetId": "categories-xpqu",
+    "name": "Categories",
+    "projectId": "{{ref(project.current.projectId)}}",
+    "taskId": "bronze_dev_storage-xpqs"
+  },
+  "mappingFields": [
+    {
+      "columnId": "categoryid",
+      "expression": {
+        "expressionStatement": "${CategoryID}",
+        "alias": [
+          {
+            "name": "CategoryID",
+            "value": "CategoryID"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "categoryname",
+      "expression": {
+        "expressionStatement": "${CategoryName}",
+        "alias": [
+          {
+            "name": "CategoryName",
+            "value": "CategoryName"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "description",
+      "expression": {
+        "expressionStatement": "${Description}",
+        "alias": [
+          {
+            "name": "Description",
+            "value": "Description"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "picture",
+      "expression": {
+        "expressionStatement": "${Picture}",
+        "alias": [
+          {
+            "name": "Picture",
+            "value": "Picture"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "rule-9ci_",
+      "expression": {
+        "expressionStatement": "${Welcometext}",
+        "alias": [
+          {
+            "name": "Welcometext",
+            "value": "Welcometext"
+          }
+        ]
+      }
+    }
+  ],
+  "id": "categories_default_mapping-krkx",
+  "name": "CATEGORIES_default_mapping",
+  "description": ""
+}

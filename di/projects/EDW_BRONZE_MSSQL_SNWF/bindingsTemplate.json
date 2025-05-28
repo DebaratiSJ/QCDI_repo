@@ -22,6 +22,10 @@
     "task-type.transform.databaseSelectionMethod": "",
     "task-type.transform.warehouseName": "",
     "task-type.transform.warehouseSelectionMethod": "",
+    "task.br_transform-rhn0.databaseName": "{{task-type.transform.databaseName}}",
+    "task.br_transform-rhn0.internalSchema": "",
+    "task.br_transform-rhn0.taskSchema": "",
+    "task.br_transform-rhn0.warehouseName": "{{task-type.transform.warehouseName}}",
     "task.bronze_dev_landing-xpqr.databaseName": "{{task-type.landing.databaseName}}",
     "task.bronze_dev_landing-xpqr.sourceConnection": "",
     "task.bronze_dev_landing-xpqr.taskSchema": "",
@@ -32,6 +36,7 @@
     "task.bronze_dev_storage-xpqs.warehouseName": "{{task-type.storage.warehouseName}}"
   },
   "idToNameMap": {
+    "br_transform-rhn0": "BR_Transform",
     "bronze_dev_landing-xpqr": "BRONZE_DEV__Landing",
     "bronze_dev_storage-xpqs": "BRONZE_DEV__Storage"
   },
