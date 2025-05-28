@@ -1,30 +1,30 @@
 {
   "variables": {
-    "projectName": "",
-    "platformConnection": "",
     "cloudStagingConnection": "",
+    "platformConnection": "",
+    "projectName": "",
     "project.current.prefixSchema": "",
-    "task-type.landing.warehouseName": "",
-    "task-type.landing.warehouseSelectionMethod": "",
-    "task-type.landing.databaseName": "",
-    "task-type.landing.databaseSelectionMethod": "",
-    "task-type.registered.databaseName": "",
-    "task-type.registered.databaseSelectionMethod": "",
-    "task-type.storage.warehouseName": "",
-    "task-type.storage.warehouseSelectionMethod": "",
-    "task-type.storage.databaseName": "",
-    "task-type.storage.databaseSelectionMethod": "",
-    "task-type.transform.warehouseName": "",
-    "task-type.transform.warehouseSelectionMethod": "",
-    "task-type.transform.databaseName": "",
-    "task-type.transform.databaseSelectionMethod": "",
-    "task-type.datamart.warehouseName": "",
-    "task-type.datamart.warehouseSelectionMethod": "",
     "task-type.datamart.databaseName": "",
     "task-type.datamart.databaseSelectionMethod": "",
+    "task-type.datamart.warehouseName": "",
+    "task-type.datamart.warehouseSelectionMethod": "",
+    "task-type.landing.databaseName": "",
+    "task-type.landing.databaseSelectionMethod": "",
+    "task-type.landing.warehouseName": "",
+    "task-type.landing.warehouseSelectionMethod": "",
+    "task-type.registered.databaseName": "",
+    "task-type.registered.databaseSelectionMethod": "",
+    "task-type.storage.databaseName": "",
+    "task-type.storage.databaseSelectionMethod": "",
+    "task-type.storage.warehouseName": "",
+    "task-type.storage.warehouseSelectionMethod": "",
+    "task-type.transform.databaseName": "",
+    "task-type.transform.databaseSelectionMethod": "",
+    "task-type.transform.warehouseName": "",
+    "task-type.transform.warehouseSelectionMethod": "",
     "task.bronze_dev_landing-xpqr.databaseName": "{{task-type.landing.databaseName}}",
-    "task.bronze_dev_landing-xpqr.taskSchema": "",
     "task.bronze_dev_landing-xpqr.sourceConnection": "",
+    "task.bronze_dev_landing-xpqr.taskSchema": "",
     "task.bronze_dev_landing-xpqr:null$_$dbo.schema": "",
     "task.bronze_dev_storage-xpqs.databaseName": "{{task-type.storage.databaseName}}",
     "task.bronze_dev_storage-xpqs.internalSchema": "",
@@ -38,9 +38,6 @@
   "connectionProperties": {
     "{{id(connection, Connections.DEV_Deb_Snowflake_Target)}}": {
       "type": "reptgt_qdisnowflake"
-    },
-    "{{id(connection, Connections.Shai_Northwind_MS_SQL_Server_(log_based))}}": {
-      "type": "repsrc_mssql"
     }
   }
 }
