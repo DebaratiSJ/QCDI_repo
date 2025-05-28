@@ -18,5 +18,6 @@
     "hasStandardViewsWithHeaders": "INHERIT",
     "watermarkIncrementalSettings": "INHERIT"
   },
-  "virtualDataset": false
+  "virtualDataset": false,
+  "description": ""
 }

@@ -11,5 +11,6 @@
       "schema": "{{task.bronze_dev_landing-xpqr:null$_$dbo.schema}}"
     }
   ],
-  "virtualDataset": false
+  "virtualDataset": false,
+  "description": ""
 }
