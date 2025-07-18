@@ -1,0 +1,13 @@
+{
+  "sourceConnection": "{{task.vic_snwf_products_landing-15gp.sourceConnection}}",
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "name": "Products",
+      "schema": "{{task.vic_snwf_products_landing-15gp:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_products"
+    }
+  ]
+}

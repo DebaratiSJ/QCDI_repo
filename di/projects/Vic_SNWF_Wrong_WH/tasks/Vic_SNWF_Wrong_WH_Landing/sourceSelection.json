@@ -1,0 +1,19 @@
+{
+  "sourceConnection": "{{task.vic_snwf_wrong_wh_landing-j7v1.sourceConnection}}",
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "name": "Categories",
+      "schema": "{{task.vic_snwf_wrong_wh_landing-j7v1:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_categories"
+    },
+    {
+      "name": "City",
+      "schema": "{{task.vic_snwf_wrong_wh_landing-j7v1:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_city"
+    }
+  ]
+}

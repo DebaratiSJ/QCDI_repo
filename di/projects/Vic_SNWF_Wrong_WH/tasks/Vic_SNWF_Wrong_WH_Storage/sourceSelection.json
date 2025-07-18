@@ -1,0 +1,13 @@
+{
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "sourceProject": "{{ref(project.current.projectId)}}",
+      "sourceTask": "vic_snwf_wrong_wh_landing-j7v1",
+      "name": "Categories",
+      "type": "NONE",
+      "sourceTableId": "categories"
+    }
+  ]
+}

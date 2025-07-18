@@ -1,0 +1,23 @@
+{
+  "id": "categories-j7v4",
+  "name": "Categories",
+  "type": "STORAGE",
+  "inputDatasets": [
+    {
+      "datasetId": "categories",
+      "name": "Categories",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "vic_snwf_wrong_wh_landing-j7v1"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "virtualDataset": false,
+  "description": ""
+}
