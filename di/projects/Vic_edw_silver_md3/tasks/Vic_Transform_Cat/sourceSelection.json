@@ -1,0 +1,20 @@
+{
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "sourceProject": "{{project.Debarati$_$Vic_SNWF_Wrong_WH.projectId}}",
+      "sourceTask": "vic_snwf_wrong_wh_storage-j7v2",
+      "name": "Categories",
+      "type": "NONE",
+      "sourceTableId": "categories-j7v4"
+    },
+    {
+      "sourceProject": "{{project.Debarati$_$Vic_SNWF_Wrong_WH.projectId}}",
+      "sourceTask": "vic_snwf_products_storage-15gq",
+      "name": "Products",
+      "type": "NONE",
+      "sourceTableId": "products-15gs"
+    }
+  ]
+}
