@@ -1,0 +1,23 @@
+{
+  "id": "products-15gs",
+  "name": "Products",
+  "type": "STORAGE",
+  "inputDatasets": [
+    {
+      "datasetId": "products",
+      "name": "Products",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "vic_snwf_products_landing-15gp"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "virtualDataset": false,
+  "description": ""
+}

@@ -1,0 +1,19 @@
+{
+  "enabled": false,
+  "schedulingType": "TIME_BASED",
+  "timeBasedScheduling": {
+    "schedule": [
+      "RRULE:FREQ=MINUTELY;INTERVAL=15;BYSECOND=0"
+    ],
+    "startDateTime": "2025-07-18T14:05:35.705Z",
+    "timezone": "Etc/UTC"
+  },
+  "eventBasedScheduling": {
+    "eventSchedulingType": "ANY_INPUT_TASK",
+    "triggerApps": []
+  },
+  "id": "schedule-j7v3",
+  "name": "Schedule",
+  "description": "",
+  "version": "1"
+}
