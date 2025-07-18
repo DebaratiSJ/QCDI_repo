@@ -1,0 +1,90 @@
+{
+  "id": "trans_categories-9ls7",
+  "name": "Trans_Categories",
+  "type": "CUSTOM",
+  "inputDatasets": [
+    {
+      "datasetId": "categories-j7v4",
+      "name": "Categories",
+      "projectId": "{{project.Debarati$_$Vic_SNWF_Wrong_WH.projectId}}",
+      "taskId": "vic_snwf_wrong_wh_storage-j7v2"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "tableDef": {
+    "name": "Trans_Categories",
+    "columns": [
+      {
+        "name": "Category ID",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 38,
+          "scale": 0,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(38,0)"
+        },
+        "id": "category id",
+        "flags": "NONE"
+      },
+      {
+        "name": "Category Name",
+        "ordinal": 2,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 15,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(15)"
+        },
+        "id": "category name",
+        "flags": "NONE"
+      },
+      {
+        "name": "Description",
+        "ordinal": 3,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 8388608,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(8388608)"
+        },
+        "id": "description",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  },
+  "customDatasetSettings": {
+    "customSql": {
+      "expressionStatement": "SELECT \u0022CategoryID\u0022 \u0022Category ID\u0022, \u0022CategoryName\u0022 \u0022Category Name\u0022, \u0022Description\u0022\nfrom ${Categories} Product_Categories",
+      "alias": [
+        {
+          "name": "Categories",
+          "value": "{{project.Debarati$_$Vic_SNWF_Wrong_WH.projectId}}$_$vic_snwf_wrong_wh_storage-j7v2$_$categories-j7v4"
+        }
+      ]
+    },
+    "incremental": false
+  },
+  "virtualDataset": false,
+  "description": ""
+}
