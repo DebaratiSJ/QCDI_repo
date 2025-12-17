@@ -1,0 +1,18 @@
+{
+  "id": "fiscperdim",
+  "name": "FISCPERDIM",
+  "type": "EXTERNAL_TABLE",
+  "inputDatasets": [
+    {
+      "type": "TABLE",
+      "datasetId": "$registered_data$guest_fiscperdim",
+      "name": "FISCPERDIM",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "date_dimensions_landing_fl-agcs",
+      "schema": "{{task.date_dimensions_landing_fl-agcs:deb_db$_$guest.schema}}",
+      "database": "{{task.date_dimensions_landing_fl-agcs:deb_db$_$guest.database}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

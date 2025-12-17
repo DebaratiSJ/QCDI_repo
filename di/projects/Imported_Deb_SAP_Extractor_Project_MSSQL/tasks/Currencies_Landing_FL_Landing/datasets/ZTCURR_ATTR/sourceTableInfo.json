@@ -1,0 +1,132 @@
+{
+  "id": "$replicate$_ztcurr_attr",
+  "name": "ZTCURR_ATTR",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "ZTCURR_ATTR",
+    "columns": [
+      {
+        "name": "MANDT",
+        "ordinal": 1,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "WSTRING",
+          "length": 3,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "mandt",
+        "flags": "NONE"
+      },
+      {
+        "name": "KURST",
+        "ordinal": 2,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "WSTRING",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "kurst",
+        "flags": "NONE"
+      },
+      {
+        "name": "FCURR",
+        "ordinal": 3,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "WSTRING",
+          "length": 5,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "fcurr",
+        "flags": "NONE"
+      },
+      {
+        "name": "TCURR",
+        "ordinal": 4,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "WSTRING",
+          "length": 5,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "tcurr",
+        "flags": "NONE"
+      },
+      {
+        "name": "GDATU",
+        "ordinal": 5,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "WSTRING",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "gdatu",
+        "flags": "NONE"
+      },
+      {
+        "name": "UKURS",
+        "ordinal": 6,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 9,
+          "scale": 5,
+          "originalTypeFull": ""
+        },
+        "id": "ukurs",
+        "flags": "NONE"
+      },
+      {
+        "name": "FFACT",
+        "ordinal": 7,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 9,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "ffact",
+        "flags": "NONE"
+      },
+      {
+        "name": "TFACT",
+        "ordinal": 8,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 9,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "tfact",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

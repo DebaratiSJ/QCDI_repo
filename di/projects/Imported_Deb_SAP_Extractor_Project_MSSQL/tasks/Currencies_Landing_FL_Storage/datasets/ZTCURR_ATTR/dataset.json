@@ -1,0 +1,24 @@
+{
+  "id": "ztcurr_attr-agcg",
+  "name": "ZTCURR_ATTR",
+  "type": "STORAGE",
+  "inputDatasets": [
+    {
+      "type": "NONE",
+      "datasetId": "ztcurr_attr",
+      "name": "ZTCURR_ATTR",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "currencies_landing_fl_landing-agcd"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "virtualDataset": false,
+  "description": ""
+}

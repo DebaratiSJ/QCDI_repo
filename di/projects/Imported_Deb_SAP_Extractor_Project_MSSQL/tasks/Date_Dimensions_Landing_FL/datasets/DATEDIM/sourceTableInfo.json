@@ -1,0 +1,158 @@
+{
+  "id": "$registered_data$guest_datedim",
+  "name": "guest_DATEDIM",
+  "type": "EXTERNAL_TABLE",
+  "tableDef": {
+    "name": "DATEDIM",
+    "dbSchema": "{{task.date_dimensions_landing_fl-agcs:deb_db$_$guest.schema}}",
+    "dbName": "{{task.date_dimensions_landing_fl-agcs:deb_db$_$guest.database}}",
+    "columns": [
+      {
+        "name": "DATE",
+        "ordinal": 1,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "DATE",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "date",
+          "originalTypeFull": "DATE"
+        },
+        "id": "date",
+        "flags": "NONE"
+      },
+      {
+        "name": "DATESTR",
+        "ordinal": 2,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 25,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "varchar",
+          "originalTypeFull": "VARCHAR(25)"
+        },
+        "id": "datestr",
+        "flags": "NONE"
+      },
+      {
+        "name": "YEAR",
+        "ordinal": 3,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "int",
+          "originalTypeFull": "INT"
+        },
+        "id": "year",
+        "flags": "NONE"
+      },
+      {
+        "name": "YEARSTR",
+        "ordinal": 4,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "varchar",
+          "originalTypeFull": "VARCHAR(4)"
+        },
+        "id": "yearstr",
+        "flags": "NONE"
+      },
+      {
+        "name": "DAYNAME",
+        "ordinal": 5,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 12,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "varchar",
+          "originalTypeFull": "VARCHAR(12)"
+        },
+        "id": "dayname",
+        "flags": "NONE"
+      },
+      {
+        "name": "WEEKOFYEAR",
+        "ordinal": 6,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "int",
+          "originalTypeFull": "INT"
+        },
+        "id": "weekofyear",
+        "flags": "NONE"
+      },
+      {
+        "name": "QUARTER",
+        "ordinal": 7,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 10,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "varchar",
+          "originalTypeFull": "VARCHAR(10)"
+        },
+        "id": "quarter",
+        "flags": "NONE"
+      },
+      {
+        "name": "MONTH",
+        "ordinal": 8,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "int",
+          "originalTypeFull": "INT"
+        },
+        "id": "month",
+        "flags": "NONE"
+      },
+      {
+        "name": "MONTHNAME",
+        "ordinal": 9,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 12,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "varchar",
+          "originalTypeFull": "VARCHAR(12)"
+        },
+        "id": "monthname",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

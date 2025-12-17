@@ -1,0 +1,12 @@
+{
+  "sourceConnection": "{{task.currencies_landing_fl_landing-agcd.sourceConnection}}",
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "name": "ZTCURR_ATTR",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$_ztcurr_attr"
+    }
+  ]
+}

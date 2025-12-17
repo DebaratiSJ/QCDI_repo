@@ -1,0 +1,12 @@
+{
+  "id": "$registered_data$guest_fiscperdim",
+  "name": "guest_FISCPERDIM",
+  "type": "EXTERNAL_TABLE",
+  "tableDef": {
+    "name": "FISCPERDIM",
+    "dbSchema": "{{task.date_dimensions_landing_fl-agcs:deb_db$_$guest.schema}}",
+    "dbName": "{{task.date_dimensions_landing_fl-agcs:deb_db$_$guest.database}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

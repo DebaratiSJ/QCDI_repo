@@ -1,0 +1,20 @@
+{
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "database": "{{task.date_dimensions_landing_fl-agcs:deb_db$_$guest.database}}",
+      "name": "DATEDIM",
+      "schema": "{{task.date_dimensions_landing_fl-agcs:deb_db$_$guest.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$guest_datedim"
+    },
+    {
+      "database": "{{task.date_dimensions_landing_fl-agcs:deb_db$_$guest.database}}",
+      "name": "FISCPERDIM",
+      "schema": "{{task.date_dimensions_landing_fl-agcs:deb_db$_$guest.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$guest_fiscperdim"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "fullLoadOnly": true,
+  "artifactsLocation": {
+    "internalSchema": "{{task.date_dimensions_landing_fl-agcs.internalSchema}}",
+    "taskSchema": "{{task.date_dimensions_landing_fl-agcs.taskSchema}}",
+    "databaseName": "{{task.date_dimensions_landing_fl-agcs.databaseName}}"
+  },
+  "incrementalSettings": {
+    "registeredType": "NONE",
+    "useBatchTimeAsFromDate": false,
+    "useSameTableAsCt": false,
+    "softDeleteSupport": false,
+    "priorImageSupport": false
+  },
+  "artifactsSettings": {
+    "reloadType": "COMPARE_AND_APPLY_WITH_DELETED_ROWS",
+    "artifactsPrefix": ""
+  },
+  "catalogIntegration": {
+    "publishDatasets": false
+  },
+  "viewType": "DEFAULT"
+}

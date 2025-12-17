@@ -1,0 +1,16 @@
+{
+  "id": "ztcurr_attr",
+  "name": "ZTCURR_ATTR",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "type": "NONE",
+      "datasetId": "$replicate$_ztcurr_attr",
+      "name": "ZTCURR_ATTR",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "currencies_landing_fl_landing-agcd"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}
