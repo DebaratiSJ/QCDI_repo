@@ -8,12 +8,6 @@
       "schema": "{{task.replication_qcdi_4809-c313:null$_$dbo.schema}}",
       "type": "TABLE",
       "sourceTableId": "$replicate$dbo_categories"
-    },
-    {
-      "name": "Customers",
-      "schema": "{{task.replication_qcdi_4809-c313:null$_$dbo.schema}}",
-      "type": "TABLE",
-      "sourceTableId": "$replicate$dbo_customers"
     }
   ]
 }
