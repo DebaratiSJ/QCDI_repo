@@ -1,0 +1,286 @@
+{
+  "id": "$registered_data$LND_QCDI_MIMIXVCOC_CA_apl_table",
+  "name": "LND_QCDI_MIMIXVCOC_CA_APL_TABLE",
+  "type": "EXTERNAL_TABLE",
+  "tableDef": {
+    "name": "APL_TABLE",
+    "dbSchema": "{{task.lnd_mimixvcoc_ca-au90:LLE_EDW_BRONZE$_$LND_QCDI_MIMIXVCOC_CA.schema}}",
+    "dbName": "{{task.lnd_mimixvcoc_ca-au90:LLE_EDW_BRONZE$_$LND_QCDI_MIMIXVCOC_CA.database}}",
+    "columns": [
+      {
+        "name": "PLID",
+        "ordinal": 1,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(2)"
+        },
+        "id": "plid",
+        "flags": "NONE"
+      },
+      {
+        "name": "PLCMPY",
+        "ordinal": 2,
+        "nullable": false,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 2,
+          "scale": 0,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(2,0)"
+        },
+        "id": "plcmpy",
+        "flags": "NONE"
+      },
+      {
+        "name": "PLVNDR",
+        "ordinal": 3,
+        "nullable": false,
+        "primaryKeyOrdinal": 2,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 5,
+          "scale": 0,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(5,0)"
+        },
+        "id": "plvndr",
+        "flags": "NONE"
+      },
+      {
+        "name": "PLINV",
+        "ordinal": 4,
+        "nullable": false,
+        "primaryKeyOrdinal": 3,
+        "datatype": {
+          "type": "STRING",
+          "length": 10,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(10)"
+        },
+        "id": "plinv",
+        "flags": "NONE"
+      },
+      {
+        "name": "PLLINE",
+        "ordinal": 5,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 3,
+          "scale": 0,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(3,0)"
+        },
+        "id": "plline",
+        "flags": "NONE"
+      },
+      {
+        "name": "PLTYPE",
+        "ordinal": 6,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(1)"
+        },
+        "id": "pltype",
+        "flags": "NONE"
+      },
+      {
+        "name": "PLGLDT",
+        "ordinal": 7,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 8,
+          "scale": 0,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(8,0)"
+        },
+        "id": "plgldt",
+        "flags": "NONE"
+      },
+      {
+        "name": "PLAMT",
+        "ordinal": 8,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 15,
+          "scale": 2,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(15,2)"
+        },
+        "id": "plamt",
+        "flags": "NONE"
+      },
+      {
+        "name": "PLDSC",
+        "ordinal": 9,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 15,
+          "scale": 2,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(15,2)"
+        },
+        "id": "pldsc",
+        "flags": "NONE"
+      },
+      {
+        "name": "PLDESC",
+        "ordinal": 10,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 25,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(25)"
+        },
+        "id": "pldesc",
+        "flags": "NONE"
+      },
+      {
+        "name": "PLSOUR",
+        "ordinal": 11,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(6)"
+        },
+        "id": "plsour",
+        "flags": "NONE"
+      },
+      {
+        "name": "PLBAMT",
+        "ordinal": 12,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 15,
+          "scale": 2,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(15,2)"
+        },
+        "id": "plbamt",
+        "flags": "NONE"
+      },
+      {
+        "name": "PLBDSC",
+        "ordinal": 13,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 15,
+          "scale": 2,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(15,2)"
+        },
+        "id": "plbdsc",
+        "flags": "NONE"
+      },
+      {
+        "name": "PLDCYR",
+        "ordinal": 14,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 4,
+          "scale": 0,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(4,0)"
+        },
+        "id": "pldcyr",
+        "flags": "NONE"
+      },
+      {
+        "name": "PLDCPX",
+        "ordinal": 15,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(2)"
+        },
+        "id": "pldcpx",
+        "flags": "NONE"
+      },
+      {
+        "name": "PLDCSQ",
+        "ordinal": 16,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 8,
+          "scale": 0,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(8,0)"
+        },
+        "id": "pldcsq",
+        "flags": "NONE"
+      },
+      {
+        "name": "LAST_UPDATE",
+        "ordinal": 17,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "DATETIME",
+          "length": 0,
+          "precision": 9,
+          "scale": 0,
+          "originalType": "TIMESTAMPNTZ",
+          "originalTypeFull": "TIMESTAMPNTZ(9)"
+        },
+        "id": "last_update",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

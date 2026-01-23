@@ -1,0 +1,13 @@
+{
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "database": "{{task.lnd_mimixvcoc_ca-au90:LLE_EDW_BRONZE$_$LND_QCDI_MIMIXVCOC_CA.database}}",
+      "name": "APL_TABLE",
+      "schema": "{{task.lnd_mimixvcoc_ca-au90:LLE_EDW_BRONZE$_$LND_QCDI_MIMIXVCOC_CA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$LND_QCDI_MIMIXVCOC_CA_apl_table"
+    }
+  ]
+}

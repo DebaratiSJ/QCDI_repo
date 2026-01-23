@@ -1,0 +1,22 @@
+{
+  "transformedTableLocal": {
+    "newTableName": "APL",
+    "transformedColumnsLocal": []
+  },
+  "datasetId": "apl_table",
+  "actionType": "LOCAL_MANIPULATION",
+  "scopeType": "COLUMN",
+  "scope": {
+    "whereOwnerName": "%",
+    "whereTableName": "APL_TABLE",
+    "whereColumnName": "%",
+    "whereDatatype": "UNSPECIFIED",
+    "whereColumnKeyAttribute": "ANY",
+    "whereColumnNullability": "ANY"
+  },
+  "enabled": true,
+  "internalRule": false,
+  "name": "APL_TABLE",
+  "id": "apl_table-77uy",
+  "description": ""
+}

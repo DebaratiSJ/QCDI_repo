@@ -1,0 +1,26 @@
+{
+  "fullLoadOnly": false,
+  "artifactsLocation": {
+    "internalSchema": "{{task.lnd_mimixvcoc_ca-au90.internalSchema}}",
+    "taskSchema": "{{task.lnd_mimixvcoc_ca-au90.taskSchema}}",
+    "databaseName": "{{task.lnd_mimixvcoc_ca-au90.databaseName}}"
+  },
+  "incrementalSettings": {
+    "registeredType": "WATERMARK",
+    "watermarkColumnName": {
+      "expressionStatement": "LAST_UPDATE"
+    },
+    "useBatchTimeAsFromDate": true,
+    "useSameTableAsCt": true,
+    "softDeleteSupport": false,
+    "priorImageSupport": false
+  },
+  "artifactsSettings": {
+    "reloadType": "COMPARE_AND_APPLY_WITH_DELETED_ROWS",
+    "artifactsPrefix": ""
+  },
+  "catalogIntegration": {
+    "publishDatasets": false
+  },
+  "viewType": "DEFAULT"
+}
