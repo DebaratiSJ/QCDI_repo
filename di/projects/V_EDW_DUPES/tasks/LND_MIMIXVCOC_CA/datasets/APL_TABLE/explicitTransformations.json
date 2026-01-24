@@ -1,7 +1,29 @@
 {
   "transformedTableLocal": {
     "newTableName": "APL",
-    "transformedColumnsLocal": []
+    "transformedColumnsLocal": [
+      {
+        "action": "ADD",
+        "columnName": "XTRACOL1",
+        "newDataType": {
+          "type": "DATETIME",
+          "length": 0,
+          "precision": 9,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "expression": {
+          "expressionStatement": "CURRENT_TIMESTAMP()",
+          "alias": []
+        },
+        "primaryKeyOrdinal": 0,
+        "ordinal": 0,
+        "nullable": true,
+        "addedColumnId": "3760a564-181e-4f7b-bfab-582b4240c003",
+        "markAsMetadata": false,
+        "hash": false
+      }
+    ]
   },
   "datasetId": "apl_table",
   "actionType": "LOCAL_MANIPULATION",
