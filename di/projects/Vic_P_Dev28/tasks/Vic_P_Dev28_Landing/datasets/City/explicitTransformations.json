@@ -4,6 +4,14 @@
       {
         "action": "KEEP",
         "columnName": "debtest4",
+        "newColumnName": "debtest4",
+        "newDataType": {
+          "type": "UNSPECIFIED",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
         "newColumnName": "debtest4_rename",
         "primaryKeyOrdinal": 0,
         "ordinal": 0,
