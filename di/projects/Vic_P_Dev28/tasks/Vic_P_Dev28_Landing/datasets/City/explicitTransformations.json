@@ -12,6 +12,7 @@
           "scale": 0,
           "originalTypeFull": ""
         },
+        "newColumnName": "debtest4_rename",
         "primaryKeyOrdinal": 0,
         "ordinal": 0,
         "nullable": true,
@@ -34,6 +35,6 @@
   "enabled": true,
   "internalRule": false,
   "name": "City",
-  "id": "city-gryh",
+  "id": "city-ftj9",
   "description": ""
 }
