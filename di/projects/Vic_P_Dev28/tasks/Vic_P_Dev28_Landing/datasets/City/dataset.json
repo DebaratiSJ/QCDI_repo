@@ -1,0 +1,17 @@
+{
+  "id": "city",
+  "name": "City",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "type": "TABLE",
+      "datasetId": "$replicate$dbo_city",
+      "name": "City",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "vic_p_dev28_landing-ckxl",
+      "schema": "{{task.vic_p_dev28_landing-ckxl:null$_$dbo.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

@@ -1,0 +1,24 @@
+{
+  "id": "city-ckxo",
+  "name": "City",
+  "type": "STORAGE",
+  "inputDatasets": [
+    {
+      "type": "NONE",
+      "datasetId": "city",
+      "name": "City",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "vic_p_dev28_landing-ckxl"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "virtualDataset": false,
+  "description": ""
+}

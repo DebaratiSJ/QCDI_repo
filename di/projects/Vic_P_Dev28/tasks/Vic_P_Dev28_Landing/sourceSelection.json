@@ -1,0 +1,19 @@
+{
+  "sourceConnection": "{{task.vic_p_dev28_landing-ckxl.sourceConnection}}",
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "name": "City",
+      "schema": "{{task.vic_p_dev28_landing-ckxl:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_city"
+    },
+    {
+      "name": "Categories",
+      "schema": "{{task.vic_p_dev28_landing-ckxl:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_categories"
+    }
+  ]
+}
