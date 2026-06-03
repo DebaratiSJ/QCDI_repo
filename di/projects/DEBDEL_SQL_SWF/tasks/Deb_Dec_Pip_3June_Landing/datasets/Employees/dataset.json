@@ -1,0 +1,17 @@
+{
+  "id": "employees",
+  "name": "Employees",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "type": "TABLE",
+      "datasetId": "$replicate$dbo_employees",
+      "name": "Employees",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "deb_dec_pip_3june_landing-mmhc",
+      "schema": "{{task.deb_dec_pip_3june_landing-mmhc:null$_$dbo.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

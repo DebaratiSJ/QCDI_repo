@@ -14,6 +14,12 @@
       "schema": "{{task.deb_dec_pip_3june_landing-mmhc:null$_$dbo.schema}}",
       "type": "TABLE",
       "sourceTableId": "$replicate$dbo_city"
+    },
+    {
+      "name": "Employees",
+      "schema": "{{task.deb_dec_pip_3june_landing-mmhc:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_employees"
     }
   ]
 }
