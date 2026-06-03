@@ -1,0 +1,11 @@
+{
+  "type": "LANDING",
+  "id": "$replicate$dbo_city",
+  "name": "dbo_City",
+  "tableDef": {
+    "name": "City",
+    "dbSchema": "{{task.deb_dec_pip_3june_landing-mmhc:null$_$dbo.schema}}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

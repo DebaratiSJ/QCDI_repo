@@ -40,22 +40,21 @@
     "task-type.transform.databaseSelectionMethod": "",
     "task-type.transform.warehouseName": "",
     "task-type.transform.warehouseSelectionMethod": "",
-    "task.table_not_exist_landing-f3a-.databaseName": "{{task-type.landing.databaseName}}",
-    "task.table_not_exist_landing-f3a-.sourceConnection": "",
-    "task.table_not_exist_landing-f3a-.taskSchema": "",
-    "task.table_not_exist_landing-f3a-:null$_$cdc.schema": "",
-    "task.table_not_exist_landing-f3a-:null$_$dbo.schema": "",
-    "task.table_not_exist_storage-f3a_.databaseName": "{{task-type.storage.databaseName}}",
-    "task.table_not_exist_storage-f3a_.internalSchema": "",
-    "task.table_not_exist_storage-f3a_.taskSchema": "",
-    "task.table_not_exist_storage-f3a_.warehouseName": "{{task-type.storage.warehouseName}}"
+    "task.deb_dec_pip_3june_landing-mmhc.databaseName": "{{task-type.landing.databaseName}}",
+    "task.deb_dec_pip_3june_landing-mmhc.sourceConnection": "",
+    "task.deb_dec_pip_3june_landing-mmhc.taskSchema": "",
+    "task.deb_dec_pip_3june_landing-mmhc:null$_$dbo.schema": "",
+    "task.deb_dec_pip_3june_storage-mmhd.databaseName": "{{task-type.storage.databaseName}}",
+    "task.deb_dec_pip_3june_storage-mmhd.internalSchema": "",
+    "task.deb_dec_pip_3june_storage-mmhd.taskSchema": "",
+    "task.deb_dec_pip_3june_storage-mmhd.warehouseName": "{{task-type.storage.warehouseName}}"
   },
   "idToNameMap": {
-    "table_not_exist_landing-f3a-": "Table_not_exist_Landing",
-    "table_not_exist_storage-f3a_": "Table_not_exist_Storage"
+    "deb_dec_pip_3june_landing-mmhc": "Deb_Dec_Pip_3June_Landing",
+    "deb_dec_pip_3june_storage-mmhd": "Deb_Dec_Pip_3June_Storage"
   },
   "connectionProperties": {
-    "task.table_not_exist_landing-f3a-.sourceConnection": {
+    "task.deb_dec_pip_3june_landing-mmhc.sourceConnection": {
       "type": "repsrc_mssql"
     }
   }
